@@ -4,11 +4,8 @@
   --tertiary-color: #ff6d24;
 }
 
-section {
+.hero {
   background: var(--secondary-color);
-  max-width: 100;
-  display: block;
-  margin: 0;
 }
 
 h1,
@@ -20,7 +17,6 @@ h3 {
 }
 
 h1 {
-  font-size: 5em;
   top: 330px;
   left: 700px;
 }
