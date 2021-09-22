@@ -1,7 +1,9 @@
 :root {
-  --primary-color: #a121ce;
+  --primary-color: #be06fe;
   --secondary-color: #36312f;
-  --tertiary-color: #ff6d24;
+  --tertiary-color: #f8f4f2;
+  --border: 1px solid var(--secondary-color);
+  --branding-font: "Poiret One", cursive;
 }
 
 h1,
@@ -14,87 +16,35 @@ h3 {
 
 .hero {
   background: var(--secondary-color);
-  height: 800px;
 }
 
-.intro-line {
-  top: 277px;
-  left: 692px;
-  font-size: 85px;
-}
-
-.intro-greeting {
-  top: 200px;
-  left: 567px;
-  font-size: 50px;
-}
-
-.intro-profession {
-  top: 390px;
-  left: 455px;
-  font-size: 50px;
-}
-
-.squares {
+#squares {
   display: block;
-  margin-left: 150px;
-  position: relative;
-  width: 272px;
-  height: 246px;
-  top: -170px;
-  left: 150px;
+  margin-top: 70px;
+  padding: 20px;
 }
 
-.circles {
-  display: block;
-  position: relative;
-  width: 303px;
-  height: 303px;
-  top: -245px;
-  left: 750px;
+#circles {
+  margin-top: -10px;
 }
 
-.triangles {
+#triangles {
   display: block;
-  position: relative;
-  width: 327px;
-  height: 411px;
-  top: -420px;
-  right: -250px;
+  margin-top: -30px;
 }
 
-.hl-line-1 {
-  display: block;
-  margin: 0;
-  position: relative;
-  width: 255px;
-  top: -885px;
-  left: 0;
+.section p {
+  font-family: var(--branding-font);
+  font-size: 60px;
+  color: var(--primary-color);
+  text-align: right;
+  padding-right: 70px;
 }
 
-.hl-line-2 {
-  display: block;
-  margin: 0;
-  position: relative;
-  width: 150px;
-  top: -632px;
-  left: 0;
+.section h2 {
+  color: var(--secondary-color);
 }
 
-.hr-line-3 {
-  display: block;
-  margin: 0;
-  position: relative;
-  width: 210px;
-  top: -520px;
-  left: 0;
-}
-
-.vl-line-4 {
-  display: block;
-  margin: 0;
-  position: relative;
-  height: 320px;
-  top: -1210px;
-  left: 1053px;
+.section {
+  background: var(--tertiary-color);
 }
