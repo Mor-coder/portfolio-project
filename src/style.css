@@ -23,6 +23,7 @@ h3 {
   font-size: 90px;
   text-align: center;
   color: rgba(var(--color), 0.6);
+  margin-bottom: 0;
 }
 
 #squares {
