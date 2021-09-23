@@ -1,7 +1,8 @@
 :root {
   --primary-color: #be06fe;
   --secondary-color: #36312f;
-  --tertiary-color: #f8f4f2;
+  --tertiary-color: #f4840c;
+  --background-color: #f7dfc8;
   --border: 1px solid var(--secondary-color);
   --branding-font: "Poiret One", cursive;
   --color: 190, 5, 254;
@@ -36,24 +37,31 @@ h3 {
 }
 .section p {
   font-family: var(--branding-font);
-  font-size: 35px;
-  color: var(--primary-color);
+  font-size: 40px;
+  color: var(--secondary-color);
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
+}
+
+.intro-projects {
+  text-decoration: overline;
 }
 
 .section h3 {
   color: var(--secondary-color);
+  font-size: 30px;
+  text-decoration: overline;
 }
 
 .section {
-  background: var(--tertiary-color);
+  background: var(--background-color);
 }
 
 .container p {
   color: var(--secondary-color);
   font-size: 20px;
   text-align: justify;
+  line-height: 1.5;
 }
 
 .container a {
@@ -62,8 +70,9 @@ h3 {
   border: var(--border);
   padding: 15px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .container a:hover {
-  color: #f4840c;
+  color: var(--tertiary-color);
 }
