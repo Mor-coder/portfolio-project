@@ -20,14 +20,15 @@ h3 {
 }
 
 #element {
-  font-size: 90px;
+  font-size: 50px;
   text-align: center;
-  color: rgba(var(--color), 0.6);
+  color: rgba(var(--color), 0.7);
+  padding-bottom: 20px;
   margin-bottom: 0;
 }
 
 #squares {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #circles {
@@ -35,15 +36,34 @@ h3 {
 }
 .section p {
   font-family: var(--branding-font);
-  font-size: 60px;
+  font-size: 35px;
   color: var(--primary-color);
   text-align: center;
+  padding-top: 20px;
 }
 
-.section h2 {
+.section h3 {
   color: var(--secondary-color);
 }
 
 .section {
   background: var(--tertiary-color);
+}
+
+.container p {
+  color: var(--secondary-color);
+  font-size: 20px;
+  text-align: justify;
+}
+
+.container a {
+  font-family: var(--branding-font);
+  color: var(--primary-color);
+  border: var(--border);
+  padding: 15px;
+  cursor: pointer;
+}
+
+.container a:hover {
+  color: #f4840c;
 }
