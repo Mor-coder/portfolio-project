@@ -35,6 +35,7 @@ h3 {
 #circles {
   margin-bottom: 30px;
 }
+
 .section p {
   font-family: var(--branding-font);
   font-size: 40px;
@@ -75,4 +76,43 @@ h3 {
 
 .container a:hover {
   color: var(--tertiary-color);
+}
+
+.line {
+  display: block;
+  position: relative;
+  bottom: 110px;
+}
+
+.line-1 {
+  display: block;
+  position: relative;
+  bottom: 700px;
+  left: 950px;
+}
+
+.line-2 {
+  display: block;
+  position: relative;
+  bottom: 500px;
+  width: 300px;
+}
+
+.line-3 {
+  display: block;
+  position: relative;
+  bottom: 365px;
+  left: 960px;
+  width: 500px;
+}
+
+@media (max-width: 576px) {
+  .line,
+  .line-1,
+  .line-2 {
+    display: none;
+  }
+  .section img {
+    display: none;
+  }
 }
