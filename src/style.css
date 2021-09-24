@@ -30,6 +30,11 @@ header a {
 .nav-link a {
   color: var(--primary-color);
   font-family: var(--branding-font);
+  cursor: pointer;
+}
+
+.nav-link a:hover {
+  color: var(--tertiary-color);
 }
 
 #element {
