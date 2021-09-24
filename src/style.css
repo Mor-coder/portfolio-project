@@ -1,11 +1,13 @@
 :root {
   --primary-color: #be06fe;
   --secondary-color: #36312f;
+  --secondary-color-opacity: 54, 49, 47;
   --tertiary-color: #f87a06;
   --background-color: #f7dfc8;
   --border: 1px solid var(--secondary-color);
   --branding-font: "Poiret One", cursive;
   --color: 190, 5, 254;
+  --color-bg: 247, 223, 200;
 }
 
 h1,
@@ -16,8 +18,12 @@ h3 {
   position: relative;
 }
 
+header a {
+  color: var(--tertiary-color);
+}
+
 #hero-index {
-  background: var(--secondary-color);
+  background: rgba(var(--secondary-color-opacity), 1);
 }
 
 #element {
@@ -132,6 +138,12 @@ h3 {
   .section img {
     display: none;
   }
+}
+
+#background-img {
+  background-image: url("../img/about-bg.png");
+  background-repeat: no-repeat;
+  background-position: 75% 25%;
 }
 
 .about-me-img {
