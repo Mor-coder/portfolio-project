@@ -1,7 +1,7 @@
 :root {
   --primary-color: #be06fe;
   --secondary-color: #36312f;
-  --tertiary-color: #f4840c;
+  --tertiary-color: #f87a06;
   --background-color: #f7dfc8;
   --border: 1px solid var(--secondary-color);
   --branding-font: "Poiret One", cursive;
@@ -26,6 +26,17 @@ h3 {
   color: rgba(var(--color), 0.7);
 }
 
+.contact-link {
+  font-family: var(--branding-font);
+  color: rgba(var(--color), 0.7);
+  font-size: 40px;
+  margin-left: 450px;
+}
+
+.contact-link:hover {
+  color: var(--tertiary-color);
+}
+
 #squares {
   margin-top: 50px;
 }
@@ -34,16 +45,37 @@ h3 {
   margin-bottom: 30px;
 }
 
-.contact-link {
-  font-family: var(--branding-font);
-  color: rgba(var(--color), 0.7);
-  font-size: 40px;
-  padding-left: 20px;
-  margin-left: 450px;
+.vv-line {
+  display: block;
+  position: relative;
+  left: 900px;
+}
+.vv-line-2 {
+  display: block;
+  position: relative;
+  top: 215px;
+  left: 195px;
+}
+.ho-line-r {
+  display: block;
+  position: relative;
+  left: 717px;
+  top: -1px;
 }
 
-.contact-link:hover {
-  color: var(--tertiary-color);
+.ho-line-l {
+  display: block;
+  position: relative;
+  bottom: -270px;
+  left: -80px;
+}
+
+.ho-line-l-top {
+  display: block;
+  position: relative;
+  bottom: 120px;
+  left: -80px;
+  width: 350px;
 }
 
 .section {
@@ -86,6 +118,13 @@ h3 {
 }
 
 @media (max-width: 576px) {
+  .vv-line,
+  .vv-line-2,
+  .ho-line-r,
+  .ho-line-l,
+  .ho-line-l-2 {
+    display: none;
+  }
   .section img {
     display: none;
   }
