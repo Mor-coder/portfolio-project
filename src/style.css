@@ -1,7 +1,6 @@
 :root {
   --primary-color: #be06fe;
   --secondary-color: #36312f;
-  --secondary-color-opacity: 54, 49, 47;
   --tertiary-color: #f87a06;
   --background-color: #f7dfc8;
   --border: 1px solid var(--secondary-color);
@@ -22,8 +21,8 @@ header a {
   color: var(--tertiary-color);
 }
 
-#hero-index {
-  background: rgba(var(--secondary-color-opacity), 1);
+.hero {
+  background: var(--secondary-color);
 }
 
 #element {
