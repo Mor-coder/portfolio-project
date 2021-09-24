@@ -27,10 +27,11 @@ h3 {
 }
 
 .contact-link {
+  display: block;
+  margin: 0 auto;
   font-family: var(--branding-font);
   color: rgba(var(--color), 0.7);
   font-size: 40px;
-  margin-left: 450px;
 }
 
 .contact-link:hover {
@@ -59,7 +60,7 @@ h3 {
 .ho-line-r {
   display: block;
   position: relative;
-  left: 717px;
+  left: 695px;
   top: -1px;
 }
 
@@ -102,6 +103,7 @@ h3 {
   font-size: 20px;
   text-align: justify;
   line-height: 1.5;
+  font-family: var(--branding-font);
 }
 
 .container .btn {
@@ -117,14 +119,16 @@ h3 {
   color: var(--tertiary-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .vv-line,
   .vv-line-2,
   .ho-line-r,
   .ho-line-l,
-  .ho-line-l-2 {
+  .ho-line-l-top {
     display: none;
   }
+}
+@media (max-width: 576px) {
   .section img {
     display: none;
   }
