@@ -24,6 +24,13 @@ header a {
 .hero {
   background: var(--secondary-color);
 }
+.container-nav-link {
+  background: var(--secondary-color);
+}
+.nav-link a {
+  color: var(--primary-color);
+  font-family: var(--branding-font);
+}
 
 #element {
   font-size: 50px;
