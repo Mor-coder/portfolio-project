@@ -16,7 +16,7 @@ h3 {
   position: relative;
 }
 
-.hero {
+#hero-index {
   background: var(--secondary-color);
 }
 
@@ -106,7 +106,7 @@ h3 {
   font-family: var(--branding-font);
 }
 
-.container .btn {
+.container .btn-index {
   font-family: var(--branding-font);
   color: var(--primary-color);
   border: var(--border);
@@ -132,4 +132,34 @@ h3 {
   .section img {
     display: none;
   }
+}
+
+.about-me-img {
+  display: block;
+  margin: 70px;
+  width: 400px;
+}
+
+.h1-about-me {
+  padding-left: 27px;
+  margin-top: 70px;
+  color: var(--secondary-color);
+  text-decoration: overline;
+}
+
+.p-about-me {
+  padding: 30px;
+}
+
+.btn-about-me {
+  font-family: var(--branding-font);
+  color: var(--primary-color);
+  border: var(--border);
+  margin: 30px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.container .btn-about-me:hover {
+  color: var(--tertiary-color);
 }
