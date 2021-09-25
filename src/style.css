@@ -174,3 +174,7 @@ header a {
 .container .btn-about-me:hover {
   color: var(--tertiary-color);
 }
+
+#bg-img {
+  background-image: url("../img/bg-circles.png");
+}
