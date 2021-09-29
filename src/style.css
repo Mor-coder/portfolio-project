@@ -160,6 +160,28 @@ header a {
   border: 1px solid #f87a06;
 }
 
-#bg-img {
-  background-image: url("../img/bg-circles.png");
+.projects-section {
+  background: var(--background-color);
+}
+
+.container h3 {
+  color: var(--secondary-color);
+  text-decoration: overline;
+  font-size: 33px;
+}
+
+.h3-projects {
+  background-color: var(--background-color);
+  margin-top: 90px;
+}
+
+.p-projects {
+  background-color: var(--background-color);
+}
+
+.projects-h1 {
+  color: var(--secondary-color);
+  text-decoration: overline;
+  padding: 30px;
+  margin-top: 50px;
 }
