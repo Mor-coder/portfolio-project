@@ -40,7 +40,7 @@ header a {
 }
 
 .contact-link:hover {
-  color: var(--tertiary-color);
+  color: var(--background-color);
 }
 
 #squares {
@@ -56,12 +56,7 @@ header a {
   position: relative;
   left: 900px;
 }
-.vv-line-2 {
-  display: block;
-  position: relative;
-  top: 215px;
-  left: 195px;
-}
+
 .ho-line-r {
   display: block;
   position: relative;
@@ -88,19 +83,15 @@ header a {
   background: var(--background-color);
 }
 
-.section-intro {
+.section-intro a {
   font-family: var(--branding-font);
   font-size: 40px;
-  color: var(--secondary-color);
-  text-align: center;
-  padding-top: 40px;
+  color: var(--tertiary-color);
   text-decoration: overline;
 }
 
-.section h3 {
-  color: var(--secondary-color);
-  font-size: 30px;
-  text-decoration: overline;
+.section-intro a:hover {
+  color: #f7dfc8;
 }
 
 .container p {
@@ -143,11 +134,15 @@ header a {
   background-image: url("../img/about-bg.png");
   background-repeat: no-repeat;
   background-position: 75% 25%;
+  padding: 10px;
+  margin-top: 30px;
 }
 
 .about-me-img {
   display: block;
-  margin: 70px;
+  margin: 60px;
+  margin-top: 160px;
+  margin-bottom: 80px;
   width: 400px;
 }
 
@@ -159,20 +154,10 @@ header a {
 }
 
 .p-about-me {
+  background-color: #f7dfc8;
   padding: 30px;
-}
-
-.btn-about-me {
-  font-family: var(--branding-font);
-  color: var(--primary-color);
-  border: var(--border);
-  margin: 30px;
-  padding: 15px;
-  cursor: pointer;
-}
-
-.container .btn-about-me:hover {
-  color: var(--tertiary-color);
+  margin-top: 53px;
+  border: 1px solid #f87a06;
 }
 
 #bg-img {
