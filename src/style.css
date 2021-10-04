@@ -21,6 +21,11 @@ h3 {
   margin-top: 55px;
 }
 
+.index-h3 {
+  color: var(--primary-color);
+  font-size: 40px;
+}
+
 #squares {
   margin-top: 50px;
 }
@@ -38,7 +43,7 @@ h3 {
 .ho-line-r {
   display: block;
   position: relative;
-  left: 695px;
+  left: 710px;
   top: -1px;
 }
 
@@ -55,6 +60,20 @@ h3 {
   bottom: 120px;
   left: -80px;
   width: 350px;
+}
+
+.ho-line-r-bottom {
+  display: block;
+  position: relative;
+  left: 910px;
+  bottom: 130px;
+  width: 500px;
+}
+
+.vv-line-bottom {
+  display: block;
+  position: relative;
+  left: 500px;
 }
 
 @media (max-width: 768px) {
@@ -123,6 +142,7 @@ h3 {
   text-decoration: overline;
   font-size: 25px;
   margin-top: 80px;
+  font-family: var(--second-branding-font);
 }
 
 .p-projects {
