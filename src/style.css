@@ -65,7 +65,7 @@ h3 {
 .ho-line-r-bottom {
   display: block;
   position: relative;
-  left: 910px;
+  left: 863px;
   bottom: 130px;
   width: 500px;
 }
@@ -96,19 +96,21 @@ h3 {
   background-repeat: no-repeat;
   background-position: 75% 25%;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 130px;
 }
 
 .about-me-img {
   display: block;
-  margin: 60px;
-  margin-top: 160px;
+  margin-top: 110px;
+  margin-left: 43px;
   margin-bottom: 80px;
   width: 400px;
 }
 
 .h1-about-me {
-  margin-top: 70px;
+  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 17px;
   color: var(--tertiary-color);
   text-decoration: overline;
 }
@@ -117,13 +119,30 @@ h3 {
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
   padding: 30px;
-  margin-top: 73px;
   border: 1px solid var(--tertiary-color);
-  font-family: var(--branding-font);
-  font-size: 20px;
+  font-family: var(--second-branding-font);
+  font-size: 17px;
   text-align: justify;
   line-height: 1.5;
-  font-family: var(--branding-font);
+}
+
+.contact {
+  text-decoration: overline;
+  color: var(--tertiary-color);
+  margin-top: 150px;
+}
+
+.btn-contact {
+  color: var(--tertiary-color);
+  text-align: center;
+  padding: 10px;
+  list-style: none;
+  font-family: var(--second-branding-font);
+  font-size: 20px;
+}
+
+.btn-contact a {
+  color: var(--tertiary-color);
 }
 
 .projects-section {
