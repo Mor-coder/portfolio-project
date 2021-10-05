@@ -21,6 +21,10 @@ h3 {
   margin-top: 55px;
 }
 
+.active {
+  color: var(--primary-color) !important;
+}
+
 .index-h3 {
   color: var(--primary-color);
   font-size: 40px;
@@ -95,22 +99,16 @@ h3 {
   background-image: url("../img/about-bg.png");
   background-repeat: no-repeat;
   background-position: 75% 25%;
-  padding: 10px;
-  margin-top: 130px;
 }
 
 .about-me-img {
   display: block;
-  margin-top: 110px;
   margin-left: 43px;
-  margin-bottom: 80px;
   width: 400px;
 }
 
 .h1-about-me {
-  margin-top: 60px;
-  padding-top: 30px;
-  padding-bottom: 17px;
+  padding-bottom: 10px;
   color: var(--tertiary-color);
   text-decoration: overline;
 }
