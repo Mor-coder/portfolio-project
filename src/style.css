@@ -130,13 +130,28 @@ nav li.active a {
   border-radius: 10px;
 }
 
-.h1-about-me {
+section h1 {
   padding-bottom: 10px;
   color: var(--tertiary-color);
   text-decoration: overline;
-  padding-top: 20px;
-  margin-top: 50px;
-  margin-bottom: 12px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+section h2 {
+  color: var(--tertiary-color);
+  text-decoration: overline;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: start;
+}
+
+section h3 {
+  color: var(--tertiary-color);
+  text-decoration: overline;
+  font-size: 25px;
+  margin-top: 90px;
+  font-family: var(--second-branding-font);
 }
 
 .p-about-me {
@@ -150,41 +165,8 @@ nav li.active a {
   line-height: 1.5;
 }
 
-.contact {
-  text-decoration: overline;
-  color: var(--tertiary-color);
-  margin-top: 150px;
-}
-
-.btn-contact {
-  color: var(--tertiary-color);
-  text-align: center;
-  padding: 10px;
-  list-style: none;
-  font-family: var(--second-branding-font);
-  font-size: 20px;
-}
-
-.btn-contact a {
-  color: var(--tertiary-color);
-}
-
 .projects-section {
   background-image: url("../img/projects-bg.png");
-}
-
-.projects-h1 {
-  color: var(--tertiary-color);
-  text-decoration: overline;
-  padding: 30px;
-}
-
-.h3-projects {
-  color: var(--tertiary-color);
-  text-decoration: overline;
-  font-size: 25px;
-  margin-top: 80px;
-  font-family: var(--second-branding-font);
 }
 
 .p-projects {
@@ -202,7 +184,37 @@ nav li.active a {
   font-family: var(--second-branding-font);
 }
 
-#contact-bg {
-  background-image: url("../img/bg-contacts.png");
-  background-repeat: no-repeat;
+#bg-contacts {
+  background-image: url(../img/bg-contacts.png);
+}
+
+.container li {
+  font-family: var(--second-branding-font);
+  text-align: start;
+  color: var(--tertiary-color);
+  padding: 10px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.btn-contact a {
+  color: var(--tertiary-color);
+}
+
+.btn-contact a:hover {
+  color: var(--primary-color);
+}
+
+.social {
+  text-align: center;
+  font-size: 35px;
+  color: var(--tertiary-color);
+}
+
+.social a {
+  color: var(--tertiary-color);
+}
+
+.social a:hover {
+  color: var(--primary-color);
 }
