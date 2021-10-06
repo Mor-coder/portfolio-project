@@ -154,15 +154,18 @@ section h3 {
   font-family: var(--second-branding-font);
 }
 
-.p-about-me {
+section p {
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
-  padding: 20px;
-  border: 1px solid var(--tertiary-color);
   font-family: var(--second-branding-font);
-  font-size: 15px;
   text-align: justify;
   line-height: 1.5;
+}
+
+.p-about-me {
+  padding: 20px;
+  border: 1px solid var(--tertiary-color);
+  font-size: 15px;
 }
 
 .projects-section {
@@ -170,13 +173,8 @@ section h3 {
 }
 
 .p-projects {
-  background-color: var(--secondary-color);
-  color: var(--tertiary-color);
-  font-family: var(--second-branding-font);
   padding: 5px;
   font-size: 15px;
-  text-align: justify;
-  line-height: 1.5;
 }
 
 .projects-section a {
@@ -197,24 +195,33 @@ section h3 {
   font-size: 20px;
 }
 
-.btn-contact a {
+section a {
   color: var(--tertiary-color);
 }
 
-.btn-contact a:hover {
+section a:hover {
+  color: var(--primary-color);
+}
+
+footer h3 {
+  font-family: var(--second-branding-font);
+}
+
+footer a {
+  font-family: var(--second-branding-font);
+  color: var(--tertiary-color);
+}
+
+footer a:hover {
+  font-family: var(--second-branding-font);
   color: var(--primary-color);
 }
 
 .social {
   text-align: center;
   font-size: 35px;
-  color: var(--tertiary-color);
 }
 
 .social a {
-  color: var(--tertiary-color);
-}
-
-.social a:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
