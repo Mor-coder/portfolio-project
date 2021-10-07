@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Selected projects designed and coded by Mor Shmueli. These include a sample website for an independet curator & art advisor, a weather search engine coded with HTML, CSS, and JavaScript. All the contents are originals and created by Mor Shmueli."
+    />
     <link rel="stylesheet" href="src/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -32,23 +36,29 @@
       src="https://kit.fontawesome.com/6d221f4f88.js"
       crossorigin="anonymous"
     ></script>
-    <title>My Projects</title>
+    <title>Selected Projects | Mor Shmueli | Front-end developer</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <h3><strong>Mor Shmueli</strong></h3></a
         >
         <ul>
-          <li>
-            <a href="/work.html"><strong>Selected Projects</strong></a>
+          <li class="active">
+            <a href="/work.html" title="Mor's Selected Projects"
+              ><strong>Selected Projects</strong></a
+            >
           </li>
           <li>
-            <a href="/about.html"><strong>About Me</strong></a>
+            <a href="/about.html" title="About Mor"
+              ><strong>About Me</strong></a
+            >
           </li>
           <li>
-            <a href="/contact.html"><strong>Contact</strong></a>
+            <a href="/contact.html" title="Mor's contact"
+              ><strong>Contact</strong></a
+            >
           </li>
         </ul>
       </nav>
@@ -123,7 +133,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer class="container">
       <h3 class="text-center mt-5">
         For any work inquiry get in touch at:
         <a href="mailto:morshmueli88@gmail.com" class="text-decoration-none"
@@ -147,6 +157,16 @@
             ><i class="fab fa-github"></i></a
         ></span>
       </div>
+      <p class="text-center mt-1">
+        This project was designed and coded by Mor Shmueli. It is
+        <a
+          href="https://github.com/Mor-coder"
+          target="_blank"
+          title="Mor's github"
+          >open-sourced</a
+        >
+        and hosted on Netlify
+      </p>
     </footer>
   </body>
 </html>

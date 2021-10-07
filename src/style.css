@@ -100,21 +100,6 @@ nav li.active a {
   left: 500px;
 }
 
-@media (max-width: 768px) {
-  .vv-line,
-  .vv-line-2,
-  .ho-line-r,
-  .ho-line-l,
-  .ho-line-l-top {
-    display: none;
-  }
-}
-@media (max-width: 576px) {
-  .section img {
-    display: none;
-  }
-}
-
 .background-img {
   background-image: url("../img/about-bg.png");
   background-repeat: no-repeat;
@@ -134,7 +119,7 @@ section h1 {
   padding-bottom: 10px;
   color: var(--tertiary-color);
   text-decoration: overline;
-  padding-top: 50px;
+  padding-top: 35px;
   padding-bottom: 10px;
 }
 
@@ -207,6 +192,10 @@ footer h3 {
   font-family: var(--second-branding-font);
 }
 
+footer p {
+  font-family: var(--second-branding-font);
+}
+
 footer a {
   font-family: var(--second-branding-font);
   color: var(--tertiary-color);
@@ -224,4 +213,16 @@ footer a:hover {
 
 .social a {
   color: var(--secondary-color);
+}
+
+@media (max-width: 576px) {
+  .vv-line,
+  .vv-line-bottom,
+  .ho-line-r,
+  .ho-line-l,
+  .ho-line-l-top,
+  .ho-line-r-bottom,
+  .about-me-img {
+    display: none;
+  }
 }
