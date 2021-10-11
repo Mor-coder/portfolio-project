@@ -28,6 +28,7 @@ nav ul {
   padding: 0;
   margin: 0;
 }
+
 nav li {
   display: inline;
   list-style: none;
@@ -39,6 +40,7 @@ nav a {
   text-decoration: overline;
   color: var(--secondary-color);
   transition: all 100ms ease-in-out;
+  font-size: 15px;
 }
 nav a:hover,
 nav li.active a {
@@ -109,10 +111,10 @@ nav li.active a {
 .about-me-img {
   display: block;
   margin-left: 43px;
-  width: 400px;
+  width: 380px;
   padding-top: 20px;
   margin-top: 135px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 section h1 {
@@ -120,7 +122,8 @@ section h1 {
   color: var(--tertiary-color);
   text-decoration: overline;
   padding-top: 35px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  font-size: 30px;
 }
 
 section h2 {
@@ -162,6 +165,10 @@ section p {
   font-size: 15px;
 }
 
+.quote {
+  background: transparent;
+}
+
 .projects-section a {
   padding: 5px;
   font-family: var(--second-branding-font);
@@ -189,10 +196,12 @@ section a:hover {
 }
 
 footer h3 {
+  font-size: 17px;
   font-family: var(--second-branding-font);
 }
 
 footer p {
+  font-size: 12px;
   font-family: var(--second-branding-font);
 }
 
@@ -223,6 +232,11 @@ footer a:hover {
   .ho-line-l-top,
   .ho-line-r-bottom,
   .about-me-img {
+    display: none;
+  }
+  #art-project,
+  #weather-app-img,
+  #cappuccino-img {
     display: none;
   }
 }
