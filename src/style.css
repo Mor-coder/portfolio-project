@@ -54,54 +54,31 @@ nav li.active a {
   font-size: 40px;
 }
 
-#squares {
-  margin-top: 50px;
+.bg-squares {
+  background-image: url(../img/squares.png);
+  padding: 15%;
+  background-color: #36312f;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
 }
 
-#circles {
-  margin-bottom: 30px;
+.bg-circles {
+  background-image: url(../img/circles.png);
+  background-color: #36312f;
+  padding: 9%;
+  background-repeat: no-repeat;
+  background-position: 70%;
+  display: flex;
 }
 
-.vv-line {
-  display: block;
-  position: relative;
-  left: 900px;
-}
-
-.ho-line-r {
-  display: block;
-  position: relative;
-  left: 710px;
-  top: -1px;
-}
-
-.ho-line-l {
-  display: block;
-  position: relative;
-  bottom: -270px;
-  left: -80px;
-}
-
-.ho-line-l-top {
-  display: block;
-  position: relative;
-  bottom: 120px;
-  left: -80px;
-  width: 350px;
-}
-
-.ho-line-r-bottom {
-  display: block;
-  position: relative;
-  left: 863px;
-  bottom: 130px;
-  width: 500px;
-}
-
-.vv-line-bottom {
-  display: block;
-  position: relative;
-  left: 500px;
+.bg-triangles {
+  background-image: url(../img/triangles.png);
+  background-color: #36312f;
+  background-repeat: no-repeat;
+  padding: 16%;
+  background-position: 40%;
+  display: flex;
 }
 
 .background-img {
