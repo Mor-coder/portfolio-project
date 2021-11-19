@@ -2,7 +2,6 @@
   --primary-color: #be06fe;
   --secondary-color: #36312f;
   --tertiary-color: #f87a06;
-  --background-color: #f7dfc8;
   --border: 1px solid var(--secondary-color);
   --branding-font: "Poiret One", cursive;
   --second-branding-font: "Poppins", sans-serif;
@@ -14,10 +13,6 @@ h1,
 h2,
 h3 {
   font-family: "Poiret One", cursive;
-}
-
-.index-bg {
-  background: var(--secondary-color);
 }
 
 nav {
@@ -49,42 +44,88 @@ nav li.active a {
   color: var(--primary-color);
 }
 
-.index-h3 {
-  color: var(--primary-color);
-  font-size: 40px;
-}
-
-.bg-squares {
-  background-image: url(../img/squares.png);
-  padding: 15%;
-  background-color: #36312f;
-  background-repeat: no-repeat;
+.index_body {
+  background-image: url("../img/index_bg.png");
+  width: 100;
+  height: 788px;
   background-position: center;
-  display: flex;
+  background-repeat: no-repeat;
 }
 
-.bg-circles {
-  background-image: url(../img/circles.png);
-  background-color: #36312f;
-  padding: 9%;
-  background-repeat: no-repeat;
-  background-position: 70%;
-  display: flex;
+.square_1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--tertiary-color);
+  position: absolute;
+  margin-top: -43em;
+  margin-left: 14.7em;
 }
 
-.bg-triangles {
-  background-image: url(../img/triangles.png);
-  background-color: #36312f;
-  background-repeat: no-repeat;
-  padding: 16%;
-  background-position: 40%;
+.square_2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--tertiary-color);
+  position: absolute;
+  margin-top: -40em;
+  margin-left: 23em;
+}
+
+.square_3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--primary-color);
+  position: absolute;
+  margin-top: -37em;
+  margin-left: 30em;
+}
+
+.rotate_2:hover {
+  animation: rotation 7s;
+}
+
+.linear_2:hover {
+  animation-timing-function: linear;
+}
+
+.infinite_2:hover {
+  animation-iteration-count: infinite;
+}
+
+.rotate:hover {
+  animation: rotation 6s;
+}
+
+.linear:hover {
+  animation-timing-function: linear;
+}
+
+.infinite:hover {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.index-h1 {
   display: flex;
+  color: var(--primary-color);
+  font-size: 50px;
+  position: absolute;
+  margin-top: -11.5em;
+  margin-left: 11.5em;
 }
 
 .background-img {
   background-image: url("../img/about-bg.png");
   background-repeat: no-repeat;
   margin-top: 3em;
+  width: 100;
 }
 
 .about-me-img {
@@ -98,8 +139,8 @@ section h1 {
   color: var(--tertiary-color);
   text-decoration: overline;
   font-size: 30px;
-  margin-top: 1em;
-  margin-bottom: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 
 section h2 {
@@ -115,7 +156,7 @@ section h3 {
   text-decoration: overline;
   font-size: 25px;
   font-family: var(--second-branding-font);
-  padding-top: 0.5em;
+  padding-top: 1em;
   line-height: 1.5;
 }
 
@@ -136,6 +177,8 @@ section p {
 .projects-section {
   background-image: url("../img/projects-bg.png");
   margin-top: 3em;
+  width: 100;
+  height: 1600px;
 }
 
 .p-projects {
@@ -156,6 +199,8 @@ section p {
 #bg-contacts {
   background-image: url(../img/bg-contacts.png);
   margin-top: 3em;
+  width: 100;
+  height: 700px;
 }
 
 .container li {
