@@ -151,7 +151,6 @@ nav li.active a {
   margin-top: 9.3em;
   justify-content: right;
   width: 260px;
-  border-radius: 1%;
   border: 1px solid var(--primary-color);
 }
 
@@ -159,7 +158,7 @@ nav li.active a {
   width: 300px;
   height: 300px;
   border: 1px solid var(--primary-color);
-  margin-top: -3.5em;
+  margin-top: -4.3em;
   margin-left: 22em;
 }
 
@@ -309,6 +308,18 @@ footer a:hover {
   border-radius: 50%;
   background-color: black;
   animation: bounce 400ms alternate infinite cubic-bezier(1, 0, 0, 1);
+}
+
+.vertical_line {
+  width: 1px;
+  height: 1400px;
+  border: 1.5em solid black;
+  margin: 0px 20px;
+}
+
+.test {
+  color: black;
+  font-size: 10em;
 }
 
 @keyframes bounce {
