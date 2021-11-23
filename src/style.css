@@ -167,7 +167,6 @@ section h1 {
   color: var(--tertiary-color);
   text-decoration: overline;
   font-size: 30px;
-  margin-top: 2em;
 }
 
 section h2 {
@@ -277,6 +276,48 @@ footer a:hover {
 .social a {
   color: var(--secondary-color);
   transition: all 0.7s ease-in-out;
+}
+
+.balls {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  animation: bounce 200ms alternate infinite cubic-bezier(1, 0, 0, 1);
+}
+
+.ball_1 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  animation: bounce 300ms alternate infinite cubic-bezier(1, 0, 0, 1);
+}
+
+.ball_2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  animation: bounce 400ms alternate infinite cubic-bezier(1, 0, 0, 1);
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
 }
 
 @media (max-width: 768px) {
