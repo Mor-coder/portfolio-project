@@ -12,7 +12,7 @@
 h1,
 h2,
 h3 {
-  font-family: "Poiret One", cursive;
+  font-family: var(--branding-font);
 }
 
 nav {
@@ -90,6 +90,23 @@ nav li.active a {
   border-radius: 50%;
 }
 
+.box:hover {
+  animation: grow-and-shrink 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+@keyframes grow-and-shrink {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(3);
+  }
+}
+
 .rotate_3 {
   animation: rotation 7s;
 }
@@ -114,15 +131,15 @@ nav li.active a {
   animation-iteration-count: infinite;
 }
 
-.rotate:hover {
+.rotate {
   animation: rotation 6s;
 }
 
-.linear:hover {
+.linear {
   animation-timing-function: linear;
 }
 
-.infinite:hover {
+.infinite {
   animation-iteration-count: infinite;
 }
 
@@ -133,13 +150,6 @@ nav li.active a {
   to {
     transform: rotate(359deg);
   }
-}
-
-.index-h1 {
-  display: flex;
-  color: var(--primary-color);
-  font-size: 50px;
-  margin-top: 2em;
 }
 
 .index-h1_1 {
@@ -185,13 +195,11 @@ section h1 {
   text-decoration: overline;
   font-size: 30px;
   margin-top: 2em;
-  margin-bottom: 0.5em;
 }
 
 section h2 {
   color: var(--tertiary-color);
   text-decoration: overline;
-  padding-bottom: 10px;
   text-align: start;
   margin-top: 1em;
 }
@@ -201,7 +209,7 @@ section h3 {
   text-decoration: overline;
   font-size: 25px;
   font-family: var(--second-branding-font);
-  padding-top: 1em;
+  margin-top: 2em;
   line-height: 1.5;
 }
 
@@ -214,7 +222,9 @@ section p {
 }
 
 .quote {
+  margin-top: 3em;
   color: var(--primary-color);
+  background-color: transparent;
 }
 
 .p-about-me {
@@ -235,14 +245,13 @@ section p {
   font-size: 15px;
 }
 
-.quote {
-  background: transparent;
-}
-
-.projects-section a {
+.behind_the_scene_btn a {
   padding: 5px;
   font-family: var(--second-branding-font);
   transition: all 0.7s ease-in-out;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
 }
 
 #bg-contacts {
