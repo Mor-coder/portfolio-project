@@ -172,6 +172,14 @@ nav li.active a {
   border: 1px solid var(--primary-color);
 }
 
+.square_4 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--primary-color);
+  margin-top: -3.5em;
+  margin-left: 22em;
+}
+
 section h1 {
   color: var(--tertiary-color);
   text-decoration: overline;
@@ -293,6 +301,7 @@ footer a:hover {
   .square_1,
   .square_2,
   .square_3,
+  .square_4,
   .circle_1,
   .circle_2,
   .circle_3,
