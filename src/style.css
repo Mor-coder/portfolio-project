@@ -44,50 +44,73 @@ nav li.active a {
   color: var(--primary-color);
 }
 
-.index_body {
+.index_bg {
   background-image: url("../img/index_bg.png");
   width: 100;
-  height: 788px;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
 .square_1 {
   width: 300px;
   height: 300px;
-  border: 1px solid var(--tertiary-color);
-  position: absolute;
-  margin-top: -43em;
-  margin-left: 14.7em;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 30%;
 }
 
 .square_2 {
   width: 200px;
   height: 200px;
   border: 1px solid var(--tertiary-color);
-  position: absolute;
-  margin-top: -40em;
-  margin-left: 23em;
 }
 
 .square_3 {
   width: 100px;
   height: 100px;
   border: 1px solid var(--primary-color);
-  position: absolute;
-  margin-top: -37em;
-  margin-left: 30em;
 }
 
-.rotate_2:hover {
+.circle_1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--tertiary-color);
+  border-radius: 30%;
+}
+
+.circle_2 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 50%;
+}
+
+.circle_3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.rotate_3 {
   animation: rotation 7s;
 }
 
-.linear_2:hover {
+.linear_3 {
   animation-timing-function: linear;
 }
 
-.infinite_2:hover {
+.infinite_3 {
+  animation-iteration-count: infinite;
+}
+
+.rotate_2 {
+  animation: rotation 7s;
+}
+
+.linear_2 {
+  animation-timing-function: linear;
+}
+
+.infinite_2 {
   animation-iteration-count: infinite;
 }
 
@@ -116,9 +139,20 @@ nav li.active a {
   display: flex;
   color: var(--primary-color);
   font-size: 50px;
-  position: absolute;
-  margin-top: -11.5em;
-  margin-left: 11.5em;
+  margin-top: 2em;
+}
+
+.index-h1_1 {
+  display: flex;
+  color: var(--primary-color);
+  font-size: 50px;
+  margin-top: 0.9em;
+}
+
+.index-h1_2 {
+  display: flex;
+  color: var(--tertiary-color);
+  font-size: 50px;
 }
 
 .background-img {
@@ -249,12 +283,12 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  .vv-line,
-  .vv-line-bottom,
-  .ho-line-r,
-  .ho-line-l,
-  .ho-line-l-top,
-  .ho-line-r-bottom,
+  .square_1,
+  .square_2,
+  .square_3,
+  .circle_1,
+  .circle_2,
+  .circle_3,
   .about-me-img {
     display: none;
   }
