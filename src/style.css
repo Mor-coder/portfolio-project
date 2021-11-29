@@ -361,7 +361,7 @@ header {
   display: grid;
   grid:
     "hello hello" 75vh
-    "my-name-is Mor" 125vh / max-content 1fr;
+    "my-name-is Mor" 200vh / max-content 1fr;
   margin-bottom: 60vh;
   margin-left: 10px;
   grid-gap: 15px;
@@ -374,7 +374,7 @@ header {
   align-self: center;
   position: sticky;
   top: 3em;
-  margin-bottom: 12em;
+  margin-bottom: 24em;
   font-family: var(--second-branding-font);
   font-weight: 900;
 }
@@ -384,17 +384,17 @@ header {
   font-size: 24px;
   position: sticky;
   align-self: center;
-  top: 5em;
+  top: 7em;
   font-family: var(--second-branding-font);
-  margin-bottom: 5.5em;
+  margin-bottom: 17.5em;
 }
 
 .intro-3 {
   grid-area: Mor;
   align-self: end;
   font-weight: 900;
-  font-style: italic;
   font-family: var(--second-branding-font);
+  position: sticky;
 }
 
 img {
@@ -405,7 +405,7 @@ img {
 .css {
   text-align: start;
   margin: 0;
-  font-size: 1.8em;
+  font-size: 20px;
   font-family: var(--second-branding-font);
 }
 
@@ -413,8 +413,9 @@ img {
   width: 80%;
   margin: 0 auto;
   display: grid;
+  grid-gap: 2em;
   grid: "text thumbnails" 1fr / 1fr 1fr;
-  margin-bottom: 100vh;
+  margin-bottom: 30vh;
 }
 
 .prototypes p {
@@ -427,6 +428,46 @@ img {
 .thumbnails {
   grid-area: thumbnails;
   margin-top: 60vh;
+  background: black;
+  padding: 5px;
+}
+
+.prototypes_1 {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2em;
+  grid: "text thumbnails_1" 1fr / 1fr 1fr;
+  margin-bottom: 100vh;
+}
+
+.prototypes_1 p {
+  position: sticky;
+  top: 20vh;
+  grid-area: text;
+  align-self: start;
+  margin-bottom: 18em;
+}
+
+.prototypes_1_li {
+  position: sticky;
+  top: 35vh;
+  grid-area: text;
+  align-self: center;
+  font-size: 20px;
+  font-family: var(--second-branding-font);
+}
+
+.css_1 {
+  text-align: start;
+  margin: 0;
+  font-size: 20px;
+  font-family: var(--second-branding-font);
+}
+
+.thumbnails_1 {
+  grid-area: thumbnails_1;
+  margin-top: 80vh;
   background: black;
   padding: 5px;
 }
