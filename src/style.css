@@ -348,3 +348,41 @@ footer a:hover {
     display: none;
   }
 }
+
+header {
+  font-family: var(--branding-font);
+  font-weight: 300;
+  background: linear-gradient(rgb(167, 27, 27), #f87a06);
+
+  font-size: 5rem;
+  margin: 0;
+}
+
+.intro {
+  display: grid;
+  grid:
+    "hello hello" 75vh
+    "my-name-is Mor" 150vh / max-content 1fr;
+  margin-bottom: 150vh;
+}
+
+.intro-1 {
+  grid-area: hello;
+  align-self: center;
+  position: sticky;
+  top: 0.5em;
+}
+
+.intro-2 {
+  grid-area: my-name-is;
+  font-weight: 900;
+  font-style: italic;
+  position: sticky;
+  align-self: center;
+  top: 2em;
+}
+
+.intro-3 {
+  grid-area: Mor;
+  align-self: end;
+}
