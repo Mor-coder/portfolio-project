@@ -352,37 +352,81 @@ footer a:hover {
 header {
   font-family: var(--branding-font);
   font-weight: 300;
-  background: linear-gradient(rgb(167, 27, 27), #f87a06);
-
-  font-size: 5rem;
-  margin: 0;
+  border: 10px solid black;
+  margin: 10px;
+  min-height: 100vh;
 }
 
 .intro {
   display: grid;
   grid:
     "hello hello" 75vh
-    "my-name-is Mor" 150vh / max-content 1fr;
-  margin-bottom: 150vh;
+    "my-name-is Mor" 125vh / max-content 1fr;
+  margin-bottom: 60vh;
+  margin-left: 10px;
+  grid-gap: 15px;
+  font-size: 24px;
+  font-family: var(--second-branding-font);
 }
 
 .intro-1 {
   grid-area: hello;
   align-self: center;
   position: sticky;
-  top: 0.5em;
+  top: 3em;
+  margin-bottom: 12em;
+  font-family: var(--second-branding-font);
+  font-weight: 900;
 }
 
 .intro-2 {
   grid-area: my-name-is;
-  font-weight: 900;
-  font-style: italic;
+  font-size: 24px;
   position: sticky;
   align-self: center;
-  top: 2em;
+  top: 5em;
+  font-family: var(--second-branding-font);
+  margin-bottom: 5.5em;
 }
 
 .intro-3 {
   grid-area: Mor;
   align-self: end;
+  font-weight: 900;
+  font-style: italic;
+  font-family: var(--second-branding-font);
+}
+
+img {
+  max-width: 100%;
+  padding: 5px;
+}
+
+.css {
+  text-align: start;
+  margin: 0;
+  font-size: 1.8em;
+  font-family: var(--second-branding-font);
+}
+
+.prototypes {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid: "text thumbnails" 1fr / 1fr 1fr;
+  margin-bottom: 100vh;
+}
+
+.prototypes p {
+  position: sticky;
+  top: 20vh;
+  grid-area: text;
+  align-self: start;
+}
+
+.thumbnails {
+  grid-area: thumbnails;
+  margin-top: 60vh;
+  background: black;
+  padding: 5px;
 }
