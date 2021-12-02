@@ -444,15 +444,15 @@ img {
   top: 20vh;
   grid-area: text;
   align-self: start;
+  margin-bottom: 26em;
 }
 
 .prototypes_1_li {
-  position: sticky;
   grid-area: text;
-  align-self: start;
   font-size: 17px;
   font-family: var(--second-branding-font);
-  top: 80vh;
+  align-self: end;
+  position: sticky;
 }
 
 .css_1 {
