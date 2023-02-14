@@ -102,7 +102,28 @@ p {
 }
 
 .midsection {
-  background-color: transparent;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 10px;
+  margin-bottom: 19em;
+}
+
+.menu_items {
+  display:flex;
+  justify-content: space-evenly; 
+  font-size: 25px;
+  font-weight:bolder;
+  border: 0.3px solid black;
+  box-shadow: 7px 7px 7px rgb(250, 185, 8);
+  width: 100%;
+}
+
+.menu_items li {
+ list-style: none;
+ padding: 20px;
+ margin: 1px; 
+ box-sizing: content-box;
 }
 
 .box {
