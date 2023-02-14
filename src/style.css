@@ -57,7 +57,7 @@ p {
   top: 3.5em;
   font-size: 4rem;
   font-family: 'Orbitron', sans-serif;
-  margin-bottom: 11vh;
+  margin-bottom: 21vh;
 }
 
 .index_4 {
@@ -87,7 +87,6 @@ p {
 
 .selected-projects_1 {
   text-align: start;
-  color: whitesmoke;
   margin: 0;
   font-size: 20px;
   font-family: var(--second-branding-font);
@@ -103,7 +102,7 @@ p {
 }
 
 .midsection {
-  background-color: rgb(119, 0, 255, 30%);
+  background-color: transparent;
 }
 
 .box {
