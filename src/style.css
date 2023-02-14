@@ -130,8 +130,7 @@ p {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #8b07f7;
-  border-radius: 3px;
+background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);  border-radius: 3px;
 }
 
 .box:hover .overlay {
