@@ -36,28 +36,28 @@ p {
   grid-area: col; 
   align-self: center;
   position:sticky;
-  top: 0.1em;
-  font-size: 10rem;
-  margin-bottom: 80vh;
+  top: 5rem;
+  font-size: 8rem;
+  margin-bottom: 75vh;
 }
 
 .index_2 {
   grid-area: col2; 
   align-self: end;
   position: sticky;
-  top: 1.3em;
+  top: 1.6em;
   font-size: 5rem;
-  margin-bottom: 50vh;
+  margin-bottom: 78vh;
 }
 
 .index_3 {
   grid-area: col4; 
   align-self: end;
   position: sticky;
-  top: 2.6em;
-  font-size: 5rem;
+  top: 3.5em;
+  font-size: 4rem;
   font-family: 'Orbitron', sans-serif;
-  margin-bottom: 7.5vh;
+  margin-bottom: 11vh;
 }
 
 .index_4 {
@@ -65,6 +65,65 @@ p {
   align-self: end;
   font-style: italic;
   font-size: 3rem;
+}
+
+.projects_1 {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2em;
+  grid: "text thumbnails_1" 1fr / 1fr 1fr;
+  margin-bottom: 20vh;
+}
+
+.projects_1 p {
+  position: sticky;
+  top: 40vh;
+  grid-area: text;
+  align-self: start;
+  margin-bottom: 8em;
+  font-size: 2rem;
+}
+
+.selected-projects_1 {
+  text-align: start;
+  margin: 0;
+  font-size: 20px;
+  font-family: var(--second-branding-font);
+}
+
+.selected-projects-icons {
+  grid-area: thumbnails_1;
+  margin-top: 60vh;
+  padding: 1px;
+}
+
+.box {
+  position: relative;
+}
+
+.mor.e-contemporary, .weather-app-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 82%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #545488;
+}
+
+.box:hover .overlay {
+  opacity: 1;
 }
 
 nav {
