@@ -13,7 +13,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: white-smoke;
 }
 
@@ -23,6 +22,10 @@ h3 {
   font-family: var(--branding-font);
 }
 
+p {
+  font-family: var(--second-branding-font);
+}
+
 .header, section {
   width: 100;
   height: auto;
@@ -30,19 +33,43 @@ h3 {
   padding: 5px;
   margin: 10px;
 }
-
-.navbar {
-  position: relative;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
-  margin-top: 70%;
+.btn.btn-primary {
+  margin-top: 20px;
+  padding-top: 17px;
+  border: 1px solid #343434;
+  background-color: transparent;
+  color: #343434;
+  font-size: 24px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 18px;
 }
 
-.navbar li{
+.btn.btn-primary:hover {
+  background-color: #343434;
+  border: 1px solid #343434;
+}
+
+.offcanvas-body {
+    text-decoration: none;
+  color: #343434;
+
+}
+
+.offcanvas-body li {
   list-style: none;
-  font-family: var(--second-branding-font);
   text-align: end;
-  justify-content: flex-end;
+}
+
+.offcanvas-body a {
+  text-decoration: none;
+  color: #343434;
+}
+
+.offcanvas-body a:hover {
+  font-style:oblique;
+  color: #525050;
+  transition: .3s ease-in-out;
 }
 
 .me-img {
@@ -73,10 +100,4 @@ h3 {
 .example-text:hover {
   cursor: pointer;
 }
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
 

@@ -41,106 +41,55 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between fixed-top">
-        <h3><strong>Mor Shmueli</strong></h3>
-        <ul>
-          <li>
-            <a href="/index.html" title="Homepage"><strong>Home</strong></a>
-          </li>
-          <li>
-            <a href="/work.html" title="Mor's Selected Projects"
-              ><strong>Selected Projects</strong></a
-            >
-          </li>
-          <li class="active">
-            <a href="/about.html" title="About Mor"
-              ><strong>About Me</strong></a
-            >
-          </li>
-          <li>
-            <a href="/contact.html" title="Mor's Contact"
-              ><strong>Contact</strong></a
-            >
-          </li>
-        </ul>
-      </nav>
+      <header class="header">
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+        >
+          <p>menu</p>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="">
+              <li>
+                <a href="/index.html"><p>Home</p></a>
+              </li>
+              <li>
+                <a href="/about.html"><p>About</p></a>
+              </li>
+              <li>
+                <a href="/work.html"><p>Selected works</p></a>
+              </li>
+              <li>
+                <a href="/index.html"><p>Coding around</p></a>
+              </li>
+              <li>
+                <a href="/contact.html"><p>Contact</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
     </div>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1 class="mt-5">Who's that girl?</h1>
-            <br />
-            <p class="p-about-me">
-              [For the short version check out my
-              <a
-                href="/img/Mor Shmueli CV. (1).pdf"
-                target="_blank"
-                title="Mor's CV"
-                ><strong>CV</strong>]</a
-              ><br /><br />
-              Some people seem to know exactly what they want to do in life.
-              Well, that person wasn't me. My background is a roller coster of
-              experiences within the art industry, and the strenuous pursue of a
-              job that would make me feel satisfied with myself.
-              <br /><br />
-              Nevertheless, it all led me to gain the courage to start anew and
-              take with me valuable lessons. Art thaught me to look at the
-              context in which an artwork has been created to fully appreciate
-              the meaning behind it, and that there isn't a right or wrong
-              answer but interpretations of the same work. This is what I took
-              with me when I switched to UX design and coding. I feel that to
-              create meaningful experiences you got to understand the context,
-              the people, and the issues involved. Coding, really, came along as
-              I felt that using platforms already providing websites' structure
-              was a bit like cheating. I needed to grasp the languages behind
-              websites to provide better, more engaging, and creative
-              experiences.
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <img
-              src="img/IMG_20211030_095015_964.jpg"
-              class="about-me-img img-fluid"
-              alt="mor-image"
-            />
-            <div class="square_4"></div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1 class="text-decoration-none text-center quote">
-              "Some people see things for what they are, others for what they
-              mean"
-            </h1>
-            <br />
-            <p class="quote text-center mt-0">
-              (extract from the book "Zen and the art of motorcycle
-              maintenance")
-            </p>
-          </div>
-          <div class="col-sm-6 mt-0">
-            <p class="p-about-me">
-              Sometimes, you come across a sentence in a book, or the lyrics of
-              a song, or a scene in a movie that opens up your mind to
-              perspectives that you just didn't see before. The time and form
-              each media takes, provides a different experience, and as unique
-              individuals, each experience speak to us in unique ways.
-              <br /><br />
-              To understand things for what they mean, as opposed to what they
-              are, it's one of those. For me at least. It gave me a new
-              perspective on almost everything, probably everything. What's a
-              website? Or a pen? Or a friend? They're not just a digital page,
-              or ink in a plastic tube, or flesh and blood. They are also
-              respectively a source of information (and knowledge and power), or
-              a way to express yourself, or a safe place.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <footer class="container">
       <div class="social mt-4 mb-3">
         <span>

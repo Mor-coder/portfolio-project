@@ -48,24 +48,60 @@
   <body>
     <div class="container">
       <header class="header">
-        <div class="row">
-          <div class="col-sm-3 col-md-2">
-            <navbar class="navbar">
-              <ul>
-                <li><p>Home</p></li>
-                <li><p>About</p></li>
-                <li><p>Selected works</p></li>
-                <li><p>Coding around</p></li>
-                <li><p>Contact</p></li>
-              </ul>
-            </navbar>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+        >
+          <p>menu</p>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
+          <div class="offcanvas-body">
+            <ul class="">
+              <li>
+                <a href="/index.html"><p>Home</p></a>
+              </li>
+              <li>
+                <a href="/about.html"><p>About</p></a>
+              </li>
+              <li>
+                <a href="/work.html"><p>Selected works</p></a>
+              </li>
+              <li>
+                <a href="/index.html"><p>Coding around</p></a>
+              </li>
+              <li>
+                <a href="/contact.html"><p>Contact</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+       </div>
+        <div class="row">
+          <div class="col-sm-3 col-md-2"></div>
           <div class="col-sm-3 col-md-10">
             <img class="img-fluid me-img" src="img/me-img.png" />
           </div>
         </div>
       </header>
-    </div>
+ 
 
     <section class="mt-5">
       <div class="container">
@@ -124,5 +160,47 @@
         </div>
       </div>
     </section>
+
+    <footer class="container">
+      <div class="social mt-4 mb-3">
+        <span>
+          <a href="mailto:morshmueli88@gmail.com"
+            ><i class="fas fa-envelope-square"></i
+          ></a>
+        </span>
+        <span>
+          <a
+            href="https://www.linkedin.com/in/mor-shmueli-3a657298/"
+            target="_blank"
+            title="Mor's linkedin"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </span>
+        <span
+          ><a
+            href="https://www.instagram.com/morsh0/"
+            target="_blank"
+            title="Mor's instagram"
+            ><i class="fab fa-instagram"></i></a
+        ></span>
+        <span
+          ><a
+            href="https://github.com/Mor-coder"
+            target="_blank"
+            title="Mor's github"
+            ><i class="fab fa-github"></i></a
+        ></span>
+      </div>
+      <p class="text-center mt-1">
+        This project was designed and coded by Mor Shmueli. It is
+        <a
+          href="https://github.com/Mor-coder"
+          target="_blank"
+          title="Mor's github"
+          >open-sourced</a
+        >
+        and hosted on Netlify
+      </p>
+    </footer>
   </body>
 </html>

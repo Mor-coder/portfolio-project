@@ -41,34 +41,58 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between fixed-top">
-        <h3><strong>Mor Shmueli</strong></h3>
-        <ul>
-          <li>
-            <a href="/index.html" title="Mor's Selected Projects"
-              ><strong>Home</strong></a
-            >
-          </li>
-          <li class="active">
-            <a href="/work.html" title="Mor's Selected Projects"
-              ><strong>Selected Projects</strong></a
-            >
-          </li>
-          <li>
-            <a href="/about.html" title="About Mor"
-              ><strong>About Me</strong></a
-            >
-          </li>
-          <li>
-            <a href="/contact.html" title="Mor's contact"
-              ><strong>Contact</strong></a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
-      <div class="container">  
+     <header class="header">
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+        >
+          <p>menu</p>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="">
+              <li>
+                <a href="/index.html"><p>Home</p></a>
+              </li>
+              <li>
+                <a href="/about.html"><p>About</p></a>
+              </li>
+              <li>
+                <a href="/work.html"><p>Selected works</p></a>
+              </li>
+              <li>
+                <a href="/index.html"><p>Coding around</p></a>
+              </li>
+              <li>
+                <a href="/contact.html"><p>Contact</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+</header>
+</div>
+ 
+      <div class="container mt-5">  
         <div class="row">
+          <div class="col-sm-6"></div>
           <div class="col-sm-6">
             <a
               href="https://practical-williams-6aa151.netlify.app/index.html"
@@ -82,19 +106,10 @@
                 alt="#"
                 id="art-project"
             /></a>
-              <p class="p-projects">
-                Mor.e Contemporary is a website I designed & coded with the idea
-                to present the art projects I have produced and the ones I have
-                participated as the artist's representative.
-              </p>
-              <div class="behind_the_scene_btn">
-                <a
-                  href="behind_the_scenes_more_contemporary.html"
-                  target="_blank"
-                  >Behind the scenes</a
-                >
-              </div>
             </div>
+            </div>
+
+            <div class="row">
                 <div class="col-sm-6">
             <a
               href="https://quizzical-bell-12c6c3.netlify.app/"
@@ -109,12 +124,6 @@
                 id="weather-app-img"
               />
             </a>
-            <p class="p-projects rounded">
-              Built using HTML, CSS, and JavaScript this weather app is the
-              first big project I have ever coded. It was frustrating at times
-              but the enormous satisfaction it gave me once it was over paid off
-              for all the little bits and bobs that made me go crazy.
-            </p>
             <div class="behind_the_scene_btn">
               <a href="behind_the_scene_weather_app.html" target="_blank"
                 >Behind the scenes</a
@@ -122,6 +131,7 @@
             </div>
           </div>
           </div>  
+
           <div class="row">
           <div class="col-sm-6 mt-5">
             <a
@@ -137,12 +147,6 @@
                 id="exercise01-img"
               />
             </a>
-            <p class="p-projects rounded">
-              This project is still ongoing. I have been asked if I could
-              re-designed the website for the Italian Jewish choir HA-KOL and
-              the website is still a work in progress. Here's a sneak peak of a
-              possible option for the landing page.
-            </p>
         </div>
       </div> 
       </div>    
