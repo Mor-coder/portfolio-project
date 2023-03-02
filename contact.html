@@ -40,25 +40,57 @@
     <title>Contact | Mor Shmueli | Front-end developer</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between fixed-top">
-          <h3><strong>Mor Shmueli</strong></h3>
-        <ul>
-            <li>
-            <a href="/index.html" title="Homepage"><strong>Home</strong></a>
-          </li>
-          <li>
-            <a href="/work.html" title="Mor's Selected Projects"><strong>Selected Projects</strong></a>
-          </li>
-          <li>
-            <a href="/about.html" title="About Mor"><strong>About Me</strong></a>
-          </li>
-          <li class="active">
-            <a href="/contact.html" title="Mor's Contact"><strong>Contact</strong></a>
-          </li>
-        </ul>
-      </nav>
+  <div class="container">
+      <header class="header">
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+        >
+          <p>menu</p>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="">
+              <li>
+                <a href="/index.html"><p>Home</p></a>
+              </li>
+              <li>
+                <a href="/about.html"><p>About</p></a>
+              </li>
+              <li>
+                <a href="/work.html"><p>Selected works</p></a>
+              </li>
+              <li>
+                <a href="/index.html"><p>Coding around</p></a>
+              </li>
+              <li>
+                <a href="/contact.html"><p>Contact</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
     </div>
+
+
     <section id="bg-contacts">
       <div class="container mt-5">
         <div class="row">
@@ -108,7 +140,8 @@
         </div>
       </div>
     </section>
-    <footer class="container">
+
+   <!-- <footer class="container">
     <p class="text-center mt-4">
         This project was designed and coded by Mor Shmueli. It is
         <a
@@ -119,6 +152,6 @@
         >
         and hosted on Netlify
       </p>
-    </footer>
+    </footer>-->
   </body>
 </html>
