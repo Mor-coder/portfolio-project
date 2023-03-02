@@ -76,7 +76,7 @@ p {
   display: block; 
   margin: 0 auto;
   padding: 5px;
-  max-width: 100;
+  width: 900px;
 }
 
 .box {
@@ -101,4 +101,6 @@ p {
 .example-text:hover {
   cursor: pointer;
 }
+
+
 
