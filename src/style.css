@@ -102,5 +102,16 @@ p {
   cursor: pointer;
 }
 
+.contact-list {
+  list-style: none;
+}
 
+.contact-list a {
+  color: #343434;
+}
+
+.contact-list a:hover {
+  color: #928f8f;
+  transition: .3s ease-in-out;
+}
 
