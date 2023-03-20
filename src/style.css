@@ -30,6 +30,11 @@ p {
   font-family: var(--second-branding-font);
 }
 
+.questions li {
+  list-style: none;
+  font-family: var(--second-branding-font);
+}
+
 .header, section {
   width: 100;
   height: auto;
@@ -114,6 +119,14 @@ p {
   margin: 0 auto; 
   border-radius: 5%;
   width: 90%;
+  height: 100%;
+}
+
+.img-bramcote {
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 5%;
+  width: 50%;
   height: 100%;
 }
 
