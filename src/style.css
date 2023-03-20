@@ -22,6 +22,10 @@ h3 {
   font-family: var(--branding-font);
 }
 
+.ux-text, .coding-text {
+  margin: 0 0 10px 35px;
+}
+
 p {
   font-family: var(--second-branding-font);
 }
@@ -33,6 +37,7 @@ p {
   padding: 5px;
   margin: 10px;
 }
+
 .btn.btn-primary {
   margin-top: 20px;
   padding-top: 17px;
@@ -79,13 +84,37 @@ p {
   width: 900px;
 }
 
-.box {
+.box1, .box2, .box3, .box4 {
   width: 100%;
   height: auto;
-  background-color: aquamarine;
   border-radius: 10%;
   padding: 10px;
   margin: 5px;
+}
+
+.box1 {
+  border: 2px dotted #02AFAD;
+}
+
+.box2 {
+  border: 2px dotted #D2A526;
+}
+
+.box3 {
+ border: 2px dotted #E2AB86;
+}
+
+.box4 {
+  border: 2px dotted #C37C53;
+}
+
+
+.img-work {
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 5%;
+  width: 90%;
+  height: 100%;
 }
 
 .example-text {
@@ -93,13 +122,30 @@ p {
   font-family: var(--second-branding-font);
 }
 
-.example-text a {
+.work-link {
+  text-align: justify;
+  font-family: var(--second-branding-font);
+}
+
+.work-link a {
   text-decoration: none;
   color: black;
 }
 
-.example-text:hover {
+.work-link:hover {
   cursor: pointer;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin: 80px 10px 80px 10px;
+}
+
+.social a {
+  color: #343434;
+  padding: 5px;
 }
 
 .contact-list {
@@ -114,4 +160,3 @@ p {
   color: #928f8f;
   transition: .3s ease-in-out;
 }
-
