@@ -42,8 +42,67 @@
     <title>Hotel Project</title>
   </head>
   <body>
-    <video controls width="250">
-      <source src="/img/AffinityDiagramGIF.mp4" type="video/mp4" />
-    </video>
+           <div class="container">
+      <header class="header">
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+        >
+          <p>menu</p>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="">
+              <li>
+                <a href="/index.html"><p>Home</p></a>
+              </li>
+              <li>
+                <a href="/about.html"><p>About</p></a>
+              </li>
+              <li>
+                <a href="/work.html"><p>Selected works</p></a>
+              </li>
+              <li>
+                <a href="/contact.html"><p>Contact</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+         <div class="row">
+          <div class="col-sm-3 col-md-2"></div>
+          <div class="col-sm-3 col-md-10">
+            <img class="img-fluid me-img mb-5" src="img/hotel-img.png">
+          </div>
+        </div>
+     
+    <h2 class="mt-5">
+      Do you remember the last time you booked a holiday? Were there any hiccups or did it go smooth as silk?  
+    </h2>
+    <h3>I consider myself a relatively chill-out person and yet, any time I book a holiday that sense of excitement is often accompanied by a little but consistent wonder. </h3>
+    <p>Will the room I have carefully selected through the available images matches the reality of things?
+      
+    </p>
+    <video controls width="550">
+      <source class="affinity-video" src="/img/AffinityDiagramGIF.mp4" type="video/mp4" />
+    </video> 
+   </div>
   </body>
 </html>

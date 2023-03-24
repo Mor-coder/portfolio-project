@@ -23,11 +23,9 @@ h3 {
   font-family: var(--branding-font);
 }
 
-.ux-text, .coding-text {
+.ux-text {
   margin: 0 0 10px 35px;
 }
-
-
 
 p {
   font-family: var(--second-branding-font);
@@ -91,13 +89,15 @@ p {
   transition: .3s ease-in-out;
 }
 
-/* images */
+/* media */
 
 .me-img {
   display: block; 
   margin: 0 auto;
+  margin-top: 10px;
   padding: 5px;
-  width: 900px;
+  width: 80%;
+  height: auto;
 }
 
 .box1, .box2, .box3, .box4 {
@@ -128,8 +128,16 @@ p {
   display: block; 
   margin: 0 auto; 
   border-radius: 5%;
-  width: 70%;
+  max-width: 100%;
   height: auto;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 /* index */
@@ -160,7 +168,7 @@ p {
   margin: 0 auto; 
   border-radius: 5%;
   width: 50%;
-  height: 100%;
+  height: auto;
 }
 
 .bramcote-p {
@@ -170,11 +178,6 @@ p {
 
 .bramcote-p li {
   margin-left: 2em;
-}
-
-.special-words {
-  font-family: var(--second-branding-font);
-  font-size: 20px;
 }
 
 
