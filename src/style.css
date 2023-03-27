@@ -1,7 +1,6 @@
 :root {
   --text-color: #343434;
   --title-color: #212529;
-  --tertiary-color: 
   --box-shadow: 3px 1px 5px rgb(143, 141, 141);
   --branding-font: "Poiret One", cursive;
   --second-branding-font: "Poppins", sans-serif;
@@ -12,7 +11,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: white-smoke;
 }
 /* text */
 
@@ -21,6 +19,18 @@ h2,
 h3 {
   font-family: var(--branding-font);
   color: var(--title-color);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 .ux-text {
@@ -32,6 +42,7 @@ p {
   font-family: var(--second-branding-font);
   text-align: justify;
   color: var(--text-color);
+  font-size: 16px;
 }
 
 .questions li {
@@ -43,7 +54,8 @@ p {
 
 /* header, sections */
 
-.header, section {
+.header,
+section {
   width: 100;
   height: auto;
   margin: 4rem 5px 5px 5px;
@@ -71,7 +83,7 @@ p {
 }
 
 .offcanvas-body {
-    text-decoration: none;
+  text-decoration: none;
   color: var(--text-color);
 }
 
@@ -86,15 +98,15 @@ p {
 }
 
 .offcanvas-body a:hover {
-  font-style:oblique;
+  font-style: oblique;
   color: #525050;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 /* media */
 
 .hero-img {
-  display: block; 
+  display: block;
   margin: 0 auto;
   margin-top: 10px;
   padding: 5px;
@@ -102,7 +114,10 @@ p {
   height: auto;
 }
 
-.box1, .box2, .box3, .box4 {
+.box1,
+.box2,
+.box3,
+.box4 {
   width: 100%;
   height: auto;
   border-radius: 10%;
@@ -111,24 +126,24 @@ p {
 }
 
 .box1 {
-  border: 2px dotted #02AFAD;
+  border: 2px dotted #02afad;
 }
 
 .box2 {
-  border: 2px dotted #D2A526;
+  border: 2px dotted #d2a526;
 }
 
 .box3 {
- border: 2px dotted #E2AB86;
+  border: 2px dotted #e2ab86;
 }
 
 .box4 {
-  border: 2px dotted #C37C53;
+  border: 2px dotted #c37c53;
 }
 
 .img-work {
-  display: block; 
-  margin: 0 auto; 
+  display: block;
+  margin: 0 auto;
   border-radius: 5%;
   max-width: 100%;
   height: auto;
@@ -140,6 +155,13 @@ video {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+.question-mark-img {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
 }
 
 /* index */
@@ -167,8 +189,8 @@ video {
 /* Bramcote page */
 
 .img-bramcote {
-  display: block; 
-  margin: 0 auto; 
+  display: block;
+  margin: 0 auto;
   border-radius: 5%;
   width: 50%;
   height: auto;
@@ -182,8 +204,6 @@ video {
 .bramcote-p li {
   margin-left: 2em;
 }
-
-
 
 /* footer */
 
@@ -209,5 +229,5 @@ video {
 
 .contact-list a:hover {
   color: #928f8f;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
