@@ -187,7 +187,7 @@ video {
   grid-area: video;
   align-items: center;
   width: 100%;
-  margin-top: 60vh;
+  margin-top: 40vh;
   border-radius: 4px;
   padding: 0.5em;
 }
