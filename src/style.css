@@ -149,13 +149,25 @@ section {
   height: auto;
 }
 
+.img-bramcote {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5%;
+  width: 50%;
+  height: auto;
+}
+
 video {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
 }
 
-.research-text {
+.research-intro h3 {
+  font-size: 24px;
+}
+
+.research-section {
   margin-top: 20vh;
   width: 100%;
   display: grid;
@@ -164,7 +176,7 @@ video {
   margin-bottom: 80vh;
 }
 
-.research-text p {
+.research-section p {
   position: sticky;
   top: 20vh;
   grid-area: text;
@@ -182,8 +194,8 @@ video {
 
 .question-mark-img {
   display: block;
-  margin-bottom: 10px;
-  width: 100%;
+  margin: 0 auto;
+  width: 85%;
   height: auto;
 }
 
@@ -210,14 +222,6 @@ video {
 }
 
 /* Bramcote page */
-
-.img-bramcote {
-  display: block;
-  margin: 0 auto;
-  border-radius: 5%;
-  width: 50%;
-  height: auto;
-}
 
 .bramcote-p {
   margin-left: 2em;
