@@ -150,11 +150,34 @@ section {
 }
 
 video {
-  display: block;
-  margin: 0 auto;
   max-width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+.research-text {
+  margin-top: 20vh;
+  width: 100%;
+  display: grid;
+  grid: "text video" 1fr / 1fr 1fr;
+  grid-gap: 1em;
+  margin-bottom: 80vh;
+}
+
+.research-text p {
+  position: sticky;
+  top: 20vh;
+  grid-area: text;
+  align-self: start;
+}
+
+.research-videos {
+  grid-area: video;
+  align-items: center;
+  width: 100%;
+  margin-top: 60vh;
+  border-radius: 4px;
+  padding: 0.5em;
 }
 
 .question-mark-img {
