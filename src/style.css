@@ -231,3 +231,7 @@ video {
   color: #928f8f;
   transition: 0.3s ease-in-out;
 }
+
+footer p {
+  font-size: 12px;
+}
