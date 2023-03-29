@@ -258,3 +258,11 @@ video {
 footer p {
   font-size: 12px;
 }
+
+/* media queries */
+@media (max-width: 768px) {
+  .question-mark-img,
+  video {
+    display: none;
+  }
+}
