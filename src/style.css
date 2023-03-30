@@ -157,6 +157,20 @@ section {
   height: auto;
 }
 
+.flow-diagram,
+.customer-j-map {
+  display: block;
+  width: 550px;
+  height: 309px;
+}
+
+.hotel-proto-img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
 video {
   max-width: 100%;
   height: auto;
@@ -165,31 +179,6 @@ video {
 
 .research-intro h3 {
   font-size: 24px;
-}
-
-.research-section {
-  margin-top: 20vh;
-  width: 100%;
-  display: grid;
-  grid: "text video" 1fr / 1fr 1fr;
-  grid-gap: 1em;
-  margin-bottom: 80vh;
-}
-
-.research-section p {
-  position: sticky;
-  top: 20vh;
-  grid-area: text;
-  align-self: start;
-}
-
-.research-videos {
-  grid-area: video;
-  align-items: center;
-  width: 100%;
-  margin-top: 40vh;
-  border-radius: 4px;
-  padding: 0.5em;
 }
 
 .question-mark-img {
@@ -265,8 +254,7 @@ footer p {
 
 /* media queries */
 @media (max-width: 768px) {
-  .question-mark-img,
-  video {
+  .question-mark-img {
     display: none;
   }
 }
