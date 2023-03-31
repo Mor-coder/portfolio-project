@@ -182,11 +182,17 @@ video {
 }
 
 .question-mark-img,
-.tower {
+.tower,
+.bramcote-notes {
   display: block;
   margin: 0 auto;
   width: 85%;
   height: auto;
+}
+
+.work-imgs ul {
+  display: flex;
+  list-style: none;
 }
 
 /* index */
