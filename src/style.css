@@ -160,6 +160,7 @@ section {
 .flow-diagram,
 .customer-j-map {
   display: block;
+  margin: 0 auto;
   width: 550px;
   height: 309px;
 }
