@@ -181,7 +181,8 @@ video {
   font-size: 24px;
 }
 
-.question-mark-img {
+.question-mark-img,
+.tower {
   display: block;
   margin: 0 auto;
   width: 85%;
