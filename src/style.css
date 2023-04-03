@@ -165,6 +165,11 @@ section {
   height: 309px;
 }
 
+.me-img {
+  display: block;
+  margin-left: 70px;
+}
+
 .hotel-proto-img {
   display: block;
   margin: 0 auto;
