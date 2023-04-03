@@ -145,8 +145,13 @@ section {
   display: block;
   margin: 0 auto;
   border-radius: 5%;
-  max-width: 100%;
+  width: 95%;
   height: auto;
+  transition: transform 0.2s;
+}
+
+.img-work:hover {
+  transform: scale(1.1);
 }
 
 .img-bramcote {
