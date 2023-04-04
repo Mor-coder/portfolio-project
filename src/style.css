@@ -16,7 +16,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--branding-font);
   color: var(--title-color);
 }
@@ -31,6 +32,10 @@ h2 {
 
 h3 {
   font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 .ux-text {
@@ -82,14 +87,40 @@ section {
   border: 1px solid #343434;
 }
 
+.btn-next,
+.btn-back-next {
+  position: relative;
+  padding-top: 10px;
+  margin-top: 7em;
+}
+
+.btn-next {
+  align-self: flex-end;
+}
+
+.btn-back-next ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-back-next li {
+  list-style: none;
+}
+
+.btn-next a,
+.btn-back-next a {
+  text-decoration: none;
+}
+
 .offcanvas-body {
   text-decoration: none;
   color: var(--text-color);
+  align-self: flex-end;
 }
 
 .offcanvas-body li {
   list-style: none;
-  text-align: end;
+  direction: rtl;
 }
 
 .offcanvas-body a {
