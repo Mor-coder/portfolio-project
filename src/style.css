@@ -225,16 +225,11 @@ video {
 
 .question-mark-img,
 .tower,
-.bramcote-notes {
+.thumbnails {
   display: block;
   margin: 0 auto;
   width: 85%;
   height: auto;
-}
-
-.work-imgs ul {
-  display: flex;
-  list-style: none;
 }
 
 /* index */
@@ -261,9 +256,15 @@ video {
 
 /* Bramcote page */
 
+.the-what h3,
+p {
+  text-align: center;
+}
+
 .bramcote-p {
   margin-left: 2em;
   width: 90%;
+  text-align: start;
 }
 
 .bramcote-p li {
