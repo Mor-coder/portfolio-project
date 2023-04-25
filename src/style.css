@@ -275,6 +275,12 @@ p {
   margin-left: 2em;
 }
 
+/* Hotel Project */
+
+.finding-list {
+  font-family: var(--second-branding-font);
+}
+
 /* footer */
 
 .social {
