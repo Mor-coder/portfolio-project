@@ -214,6 +214,8 @@ section {
 }
 
 video {
+  display: block;
+  margin: 0 auto;
   max-width: 100%;
   height: auto;
   border-radius: 4px;
@@ -273,12 +275,6 @@ p {
 
 .bramcote-p li {
   margin-left: 2em;
-}
-
-/* Hotel Project */
-
-.finding-list {
-  font-family: var(--second-branding-font);
 }
 
 /* footer */
