@@ -45,7 +45,6 @@ h4 {
 
 p {
   font-family: var(--second-branding-font);
-  text-align: justify;
   color: var(--text-color);
   font-size: 16px;
 }
@@ -149,27 +148,28 @@ section {
 .box2,
 .box3,
 .box4 {
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 10%;
   padding: 10px;
   margin: 5px;
+  text-align: center;
 }
 
 .box1 {
-  border: 2px dotted #02afad;
+  background: #02afad;
 }
 
 .box2 {
-  border: 2px dotted #d2a526;
+  background: #aca0b6;
 }
 
 .box3 {
-  border: 2px dotted #e2ab86;
+  background: #e2ab86;
 }
 
 .box4 {
-  border: 2px dotted #c37c53;
+  background: #f4b2e6;
 }
 
 .img-work {
@@ -235,12 +235,6 @@ video {
 }
 
 /* index */
-
-.example-text {
-  text-align: justify;
-  font-family: var(--second-branding-font);
-  color: var(--text-color);
-}
 
 .work-link {
   text-align: justify;
