@@ -2,15 +2,17 @@
   --text-color: #343434;
   --title-color: #212529;
   --box-shadow: 3px 1px 5px rgb(143, 141, 141);
-  --branding-font: "Poiret One", cursive;
-  --second-branding-font: "Poppins", sans-serif;
+  --branding-font: "Urbanist", sans-serif;
+  --second-branding-font: "Urbanist", sans-serif;
   --color: 190, 5, 254;
-  --color-bg: 247, 223, 200;
+  --color-bg: rgb(248, 248, 248);
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  margin: 123px;
+  padding: 24px 24px;
 }
 /* text */
 
@@ -18,8 +20,9 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--branding-font);
+  font-family: var(--second-branding-font);
   color: var(--title-color);
+  padding: 16px;
 }
 
 h1 {
@@ -38,9 +41,39 @@ h4 {
   font-size: 20px;
 }
 
+.lines_deco {
+  display: block;
+  align-items: flex-end;
+  flex-direction: column;
+  border-radius: 0 10px 10px 0;
+}
+
+.line_top_1 {
+  width: 70%;
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 0 10px 10px 0;
+}
+
+.line_top_2 {
+  width: 50%;
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 0 10px 10px 0;
+}
+
+.line_top_3 {
+  width: 30%;
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 0 10px 10px 0;
+}
 .ux-text {
   margin: 0 0 10px 35px;
   color: var(--text-color);
+}
+
+.index-text {
+  font-family: var(--second-branding-font);
+  text-align: start;
+  margin-top: 15%;
 }
 
 p {
@@ -62,121 +95,38 @@ p {
 section {
   width: 100;
   height: auto;
-  margin: 4rem 5px 5px 5px;
   padding: 5px;
   margin: 10px;
 }
 
-/* menu */
-
-.btn.btn-primary {
-  margin-top: 20px;
-  padding-top: 17px;
-  border: 1px solid #343434;
-  background-color: transparent;
-  color: var(--text-color);
-  font-size: 24px;
-  line-height: 15px;
-  text-align: center;
-  font-size: 18px;
+.section1 {
+  height: 640px;
+  background-color: purple;
+  border-radius: 0 20% 0 20%;
 }
 
-.btn.btn-primary:hover {
-  background-color: #343434;
-  border: 1px solid #343434;
+.section2 {
+  height: 640px;
+  background-color: darkorange;
+  border-radius: 0 20% 0 20%;
+  margin-top: 36px;
 }
 
-.btn-next,
-.btn-back-next {
-  position: relative;
-  padding-top: 10px;
-  margin-top: 7em;
-}
-
-.btn-next {
-  align-self: flex-end;
-}
-
-.btn-back-next ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-.btn-back-next li {
-  list-style: none;
-}
-
-.btn-next a,
-.btn-back-next a {
-  text-decoration: none;
-}
-
-.offcanvas-body {
-  text-decoration: none;
-  color: var(--text-color);
-  align-self: flex-end;
-}
-
-.offcanvas-body li {
-  list-style: none;
-  direction: rtl;
-}
-
-.offcanvas-body a {
-  text-decoration: none;
-  color: var(--text-color);
-}
-
-.offcanvas-body a:hover {
-  font-style: oblique;
-  color: #525050;
-  transition: 0.3s ease-in-out;
+.section3 {
+  height: 640px;
+  background-color: rgb(109, 220, 248);
+  border-radius: 0 20% 0 20%;
+  margin-top: 36px;
 }
 
 /* media */
 
-.hero-img {
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  padding: 5px;
-  width: 80%;
-  height: auto;
-}
-
-.box1,
-.box2,
-.box3,
-.box4 {
-  width: 90%;
-  height: auto;
-  border-radius: 10%;
-  padding: 10px;
-  margin: 5px;
-  text-align: center;
-}
-
-.box1 {
-  background: #02afad;
-}
-
-.box2 {
-  background: #aca0b6;
-}
-
-.box3 {
-  background: #e2ab86;
-}
-
-.box4 {
-  background: #f4b2e6;
-}
-
 .img-work {
   display: block;
-  margin: 0 auto;
+  margin-top: 25px;
+  margin-left: 20%;
   border-radius: 5%;
-  width: 95%;
+  width: 65%;
   height: auto;
   transition: transform 0.2s;
 }
@@ -236,18 +186,20 @@ video {
 
 /* index */
 
-.work-link {
-  text-align: justify;
-  font-family: var(--second-branding-font);
+.button {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 24px 24px 24px 24px;
 }
 
-.work-link a {
+.button a {
   text-decoration: none;
   color: black;
 }
 
-.work-link:hover {
+.button:hover {
   cursor: pointer;
+  color: aliceblue;
 }
 
 /* Bramcote page */
