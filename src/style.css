@@ -8,11 +8,10 @@
   --color-bg: rgb(248, 248, 248);
 }
 
-.container {
+.container-flex {
   display: flex;
   flex-direction: column;
-  margin: 123px;
-  padding: 24px 24px;
+  margin: 36px;
 }
 /* text */
 
@@ -22,15 +21,17 @@ h3,
 h4 {
   font-family: var(--second-branding-font);
   color: var(--title-color);
-  padding: 16px;
+  padding: 24px 24px 8px 24px;
 }
 
 h1 {
-  font-size: 32px;
+  text-align: start;
+  font-size: 92px;
+  margin-top: 36px;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 h3 {
@@ -39,6 +40,26 @@ h3 {
 
 h4 {
   font-size: 20px;
+}
+
+p {
+  font-family: var(--second-branding-font);
+  color: var(--text-color);
+  font-size: 16px;
+  text-align: start;
+  padding: 8px 24px 8px 24px;
+}
+
+.ux-text {
+  margin: 0 0 10px 35px;
+  color: var(--text-color);
+}
+
+.questions li {
+  list-style: none;
+  font-family: var(--second-branding-font);
+  margin-left: 2em;
+  color: var(--text-color);
 }
 
 .lines_deco {
@@ -65,58 +86,43 @@ h4 {
   border: 1px solid rgb(82, 82, 82);
   border-radius: 0 10px 10px 0;
 }
-.ux-text {
-  margin: 0 0 10px 35px;
-  color: var(--text-color);
-}
-
-.index-text {
-  font-family: var(--second-branding-font);
-  text-align: start;
-  margin-top: 15%;
-}
-
-p {
-  font-family: var(--second-branding-font);
-  color: var(--text-color);
-  font-size: 16px;
-}
-
-.questions li {
-  list-style: none;
-  font-family: var(--second-branding-font);
-  margin-left: 2em;
-  color: var(--text-color);
-}
 
 /* header, sections */
 
-.header,
-section {
+header {
   width: 100;
-  height: auto;
+  height: 350px;
   padding: 5px;
   margin: 10px;
 }
 
 .section1 {
-  height: 640px;
-  background-color: purple;
-  border-radius: 0 20% 0 20%;
+  height: 400px;
+  margin: 36px;
 }
 
+.half-col-1 {
+  height: 400px;
+  border-radius: 0 20% 0 20%;
+  background-color: purple;
+  margin-top: 36px;
+}
 .section2 {
-  height: 640px;
+  height: 550px;
   background-color: darkorange;
   border-radius: 0 20% 0 20%;
-  margin-top: 36px;
+  margin: 36px;
 }
 
 .section3 {
-  height: 640px;
+  height: 550px;
+  margin: 36px;
+}
+
+.half-col-3 {
+  height: 400px;
+  border-radius: 20% 0 20% 0;
   background-color: rgb(109, 220, 248);
-  border-radius: 0 20% 0 20%;
-  margin-top: 36px;
 }
 
 /* media */
@@ -189,7 +195,9 @@ video {
 .button {
   border: 1px solid grey;
   border-radius: 10px;
-  padding: 24px 24px 24px 24px;
+  padding: 16px 16px;
+  margin: 24px;
+  width: 300px;
 }
 
 .button a {
@@ -199,13 +207,15 @@ video {
 
 .button:hover {
   cursor: pointer;
-  color: aliceblue;
+}
+
+.button:hover a {
+  color: rgb(147, 148, 149);
 }
 
 /* Bramcote page */
 
-.the-what h3,
-p {
+.the-what h3 {
   text-align: center;
 }
 
@@ -252,6 +262,12 @@ p {
 
 footer p {
   font-size: 12px;
+}
+
+.arrow-up {
+  margin-top: 60px;
+  color: #212529;
+  font-size: 30px;
 }
 
 /* media queries */
