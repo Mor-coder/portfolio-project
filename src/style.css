@@ -52,6 +52,12 @@ img {
   padding-bottom: 6px;
 }
 
+.project_1, .project_2 {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+
 .img-work {
   display: block;
   margin-top: 25px;
