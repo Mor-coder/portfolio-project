@@ -6,7 +6,11 @@
   --title-font-1: "Bebas Neue", sans-serif;
   --title-font-2: "DM Serif Display", serif;
   --title-font-3: "Space Grotesk", sans-serif;
-  --color-bg: rgb(248, 248, 248);
+  --color-bg: #f8f8f8;
+}
+
+body {
+  background-color: var(--color-bg);
 }
 
 .header {
@@ -40,12 +44,12 @@ h1 {
   color: var(--title-color);
 }
 
-.menu {
-  font-family: var(--second-branding-font);
-  color: var(--text-color);
-  font-size: 110px;
-  text-align: start;
-  padding: 36px 24px 36px 24px;
+img {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .img-work {
