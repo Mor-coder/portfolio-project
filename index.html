@@ -8,7 +8,7 @@
       name="description"
       content="Mor is a ux/ui designer with front-end engineering skills based in London, UK. She has a multidiscplinary background having worked for many years in the art sector. She is interested in the crossing over of technology and art and how technology can improve people's life. She is keen on creative meaningful experiences through the use of technology."
     />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/style.css" type="text/css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -64,38 +64,54 @@
       </div>
     </div>
 
-    <img src="/img/header_img.svg" class="img-fluid" />
+    <div class="footer mt-5">
+      <img src="img/footer.svg" class="img-fluid" />
+    </div>
 
     <div class="container">
       <div class="header">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>
+        <div class="row mt-5">
+          <div class="col-md-6 mt-5">
+            <h1 class="homepage_tabs text-start">
               Enough with the chit-chat, here's a selection of projects I
               carefully curated to sparkle your interest.
             </h1>
+            <h3 class="headline_3 mt-3">
+              These include the latest ux/ui work as well as some coding
+              shenanigans I indulged in.
+            </h3>
           </div>
-          <div class="col-md-6">
-            <ul>
-              <li>
-                <img
-                  src="img/Bramcote-project.svg"
-                  class="project_1 img-fluid"
-                />
-              </li>
-              <li>
-                <img src="/img/hotel-project.svg" class="project_2 img-fluid" />
-              </li>
-            </ul>
+          <div class="col-md-6 mt-5">
+            <div class="sticky-list">
+              <ul class="scrolling-list-projects">
+                <li>
+                  <img
+                    src="img/Bramcote-project.svg"
+                    class="project_1 img-fluid"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/img/hotel-project.svg"
+                    class="project_2 img-fluid"
+                  />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="row">
-          <h1>About me</h1>
+    <div class="container">
+      <div class="header">
+        <div class="row mt-5">
+          <h1 class="homepage_tabs mt-5">
+            Last but not least, something About me
+          </h1>
         </div>
-
-        <div class="row">
-          <h1>Contact</h1>
+        <div class="row mt-5">
+          <h1 class="homepage_tabs">Get in touch</h1>
         </div>
         <div class="social">
           <span>
@@ -122,9 +138,12 @@
       </div>
     </div>
 
-    <div class="footer">
-      <img src="img/footer.svg" class="img-fluid" />
+    <img src="/img/header_img.svg" class="img-fluid mt-5" />
+
+    <div class="loop-container">
+      <div class="line black-line"></div>
     </div>
+
     <p class="last_p text-center mt-1">
       This portfolio was designed and coded by Mor Shmueli. It is
       <a
