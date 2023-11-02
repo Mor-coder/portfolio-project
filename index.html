@@ -35,7 +35,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <div class="header homepage_intro">
         <div class="row">
           <div class="col-md-4">
             <h1 class="headline">Hi there!</h1>
@@ -64,43 +64,79 @@
       </div>
     </div>
 
-    <div class="footer mt-5">
-      <img src="img/footer.svg" class="img-fluid" />
+    <div class="footer">
+      <img src="img/footer_light.svg" class="img-fluid" />
     </div>
 
     <div class="container">
       <div class="header">
         <div class="row mt-5">
-          <div class="col-md-4 mt-5">
+          <div class="col-md-5 mt-5">
             <h1 class="homepage_tabs text-start">
-              Enough with the chit-chat, here's a selection of projects I
-              carefully curated to sparkle your interest.
+              Here's a handpicked selection of projects I've had the pleasure of
+              working on, and I hope they catch your interest.
             </h1>
             <h3 class="headline_3 mt-3">
               These include the latest ux/ui work as well as some coding
               shenanigans I indulged in.
             </h3>
           </div>
-          <div class="col-md-8 mt-5">
+          <div class="col-md-7 mt-5">
             <div class="sticky-list">
               <ul class="scrolling-list-projects">
                 <li>
-                  <img
-                    src="img/Bramcote-project.svg"
-                    class="project_1 img-fluid"
-                  />
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h2 class="headline_2_projects">
+                        The Re-vamping of The Bramcote Old Church Tower Trust
+                        Website
+                      </h2>
+                      <p>Project lenght: 3 months</p>
+                      <div class="btn_primary">Go to project</div>
+                    </div>
+                    <div class="col-md-8">
+                      <img
+                        src="/img/Bramcote-project.svg"
+                        class="project_1 img-fluid"
+                      />
+                    </div>
+                  </div>
                 </li>
                 <li>
                   <img
-                    src="/img/hotel-project.svg"
-                    class="project_2 img-fluid"
+                    src="img/hotel-project.svg"
+                    class="project_2 img-fluid mt-5"
                   />
+                  <h2 class="headline_2_projects">
+                    Hassle free check-in/check-out hotel experience? I'm working
+                    on it...
+                  </h2>
+                  <p>Project lenght: 3 months</p>
+                  <div class="btn_primary">Go to project</div>
                 </li>
                 <li>
-                  <img src="img/Mor-e-Contemporary 1.svg" class="img-fluid" />
+                  <img
+                    src="img/Mor-e-Contemporary 1.svg"
+                    class="project_3 img-fluid mt-5"
+                  />
+                  <h2 class="headline_2_projects">
+                    Cheeky website to show the works of wonderful artists I
+                    worked with as a freelance art curator.
+                  </h2>
+                  <p>Project lenght: 3 months</p>
+                  <div class="btn_primary">Go to project</div>
                 </li>
                 <li>
-                  <img src="/img/weather-app-project.svg" class="img-fluid" />
+                  <img
+                    src="/img/weather-app-project.svg"
+                    class="project_4 img-fluid mt-5"
+                  />
+                  <h2 class="headline_2_projects">
+                    Does the weather in your city change 100 times a day, like
+                    it does in London?
+                  </h2>
+                  <p>Project lenght: 3 months</p>
+                  <div class="btn_primary">Go to project</div>
                 </li>
               </ul>
             </div>
@@ -160,5 +196,21 @@
       >
       and hosted on Netlify
     </p>
+
+    <script>
+      const headlines = document.querySelectorAll(
+        ".headline, .headline_2, .headline_3"
+      );
+
+      function fadeInHeadlines() {
+        headlines.forEach((headline, index) => {
+          setTimeout(() => {
+            headline.style.opacity = 1;
+          }, 1000 * index); // Adjust the delay (1000ms = 1 second)
+        });
+      }
+
+      window.addEventListener("load", fadeInHeadlines);
+    </script>
   </body>
 </html>
