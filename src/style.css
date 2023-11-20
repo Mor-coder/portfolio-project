@@ -31,34 +31,54 @@ body {
 
 .homepage_intro {
   text-align: center;
-  margin-top: 16px;
   color: var(--color-bg);
   width: 100%;
 }
 
+.headline_container {
+  height: 100vh;
+  width: 100%;
+}
+
+.headline_2_container {
+  height: 100vh;
+  width: 100%;
+}
+
+.headline_3_container {
+  height: 100vh;
+  width: 100%;
+}
+
 .headline {
-  top: 0.5em;
   font-family: var(--title-font-1);
   color: var(--title-color);
   font-size: 8em;
+  margin-top: 70%;
+  position: sticky;
+  top: 0;
 }
 
 .headline_2 {
   font-family: var(--title-font-2);
   color: var(--title-color);
   font-size: 3em;
-}
-
-.headline_2_projects {
-  font-family: var(--title-font-2);
-  color: var(--title-color);
-  font-size: 1.3em;
+  position: sticky;
+  top: 0;
 }
 
 .headline_3 {
   font-family: var(--title-font-3);
   color: var(--title-color);
   font-size: 1.5em;
+  position: sticky;
+  top: 0;
+}
+
+.headline_2_projects {
+  font-family: var(--title-font-2);
+  color: var(--title-color);
+  font-size: 1.3em;
 }
 
 .headline,
@@ -69,8 +89,14 @@ body {
   text-align: start;
 }
 
-.homepage_tabs {
+.homepage_tab {
   font-family: var(--title-font);
+  font-size: 1.5em;
+  color: var(--title-color);
+}
+
+.homepage_tab_2 {
+  font-family: var(--title-font-3);
   font-size: 1.5em;
   color: var(--title-color);
 }
@@ -78,7 +104,7 @@ body {
 p {
   font-family: var(--second-branding-font);
   color: var(--text-color);
-  font-size: 1em;
+  font-size: 16px;
 }
 
 img {
@@ -86,7 +112,6 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 6px;
-  padding-bottom: 6px;
   width: 100%;
   height: auto;
 }
@@ -109,9 +134,11 @@ img {
 .project_2,
 .project_3,
 .project_4 {
-  width: 70%;
-  height: 50%;
-  padding: 24px 16px;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 30%;
+  padding: 16px;
 }
 
 .img-work {
