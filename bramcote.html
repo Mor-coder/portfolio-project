@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <meta
+      name="description"
+      content="Mor is a ux/ui designer with front-end engineering skills based in London, UK. She has a multidiscplinary background having worked for many years in the art sector. She is interested in the crossing over of technology and art and how technology can improve people's life. She is keen on creative meaningful experiences through the use of technology."
+    />
+    <link rel="stylesheet" href="src/style.css" type="text/css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,31 +23,73 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Ledger&family=Space+Grotesk&family=Urbanist:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <script
       src="https://kit.fontawesome.com/6d221f4f88.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" href="img/favicon.png" />
-    <title>Bramcote Old Church Tower</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <title>Revamping the Bramcote Old Church Tower website</title>
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid transparent;
+      }
+    </style>
   </head>
   <body>
-  
+    <container>
+      <canvas id="myCanvas" width="400" height="200" class="mt-5"></canvas>
 
+      <h3 class="text-center mt-5 mb-3">Work in progress</h3>
+
+      <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // Ball objects
+        const balls = [
+          { x: 50, y: 50, radius: 20, color: "#343434", speed: 2 },
+          { x: 150, y: 50, radius: 30, color: "#343434", speed: 1.5 },
+          { x: 250, y: 50, radius: 15, color: "#343434", speed: 1 },
+        ];
+
+        function drawBall(ball) {
+          ctx.beginPath();
+          ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+          ctx.fillStyle = ball.color;
+          ctx.fill();
+          ctx.closePath();
+        }
+
+        function update() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          for (const ball of balls) {
+            drawBall(ball);
+
+            // Update ball position
+            ball.y += ball.speed;
+
+            // Bounce when reaching the bottom
+            if (
+              ball.y + ball.radius > canvas.height ||
+              ball.y - ball.radius < 0
+            ) {
+              ball.speed = -ball.speed;
+            }
+          }
+
+          requestAnimationFrame(update);
+        }
+
+        update(); // Start animation loop
+      </script>
+
+      <!--
     <footer class="container">
       <div class="social">
         <span>
@@ -73,19 +119,19 @@
             title="Mor's github"
             ><i class="fab fa-github"></i></a
         ></span>
-      </div>
-      <p class="text-center mt-1">
-        This portfolio was designed and coded by Mor Shmueli. It is
-        <a
-          href="https://github.com/Mor-coder"
-          target="_blank"
-          title="Mor's github"
-          >open-sourced</a
-        >
-        and hosted on Netlify
-      </p>
+      </div>  
+       <p class="last_p text-center mt-5">
+      This portfolio was designed and coded by Mor Shmueli. It is
+      <a
+        href="https://github.com/Mor-coder"
+        target="_blank"
+        title="Mor's github"
+        >open-sourced</a
+      >
+      and hosted on Netlify
+    </p>
     </footer>
-           </div>
-
+    -->
+    </container>
   </body>
 </html>
