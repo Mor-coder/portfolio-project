@@ -29,6 +29,17 @@ body {
   border-radius: 12px;
 }
 
+.btn_primary a {
+  text-decoration: none;
+  color: #343434;
+}
+
+.btn_primary:hover,
+.btn_primary a:hover {
+  background-color: #343434;
+  color: #f8f8f8;
+}
+
 .homepage_intro {
   text-align: center;
   color: var(--color-bg);
@@ -46,7 +57,7 @@ body {
 }
 
 .headline_3_container {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
 }
 
@@ -81,6 +92,7 @@ body {
   font-size: 1.3em;
 }
 
+/*
 .headline,
 .headline_2,
 .headline_3 {
@@ -88,11 +100,25 @@ body {
   transition: opacity 0.5s ease-in-out;
   text-align: start;
 }
+*/
+
+.tabs_container {
+  height: 90vh;
+}
 
 .homepage_tab {
   font-family: var(--title-font);
   font-size: 1.5em;
   color: var(--title-color);
+  position: sticky;
+  top: 4em;
+  margin-bottom: 3.5em;
+}
+
+.homepage_tab_2 {
+  position: sticky;
+  top: 9em;
+  margin-bottom: 0;
 }
 
 .homepage_tab_2 {
