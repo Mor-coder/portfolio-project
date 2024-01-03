@@ -16,6 +16,22 @@ body {
   overflow: scroll;
 }
 
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 16px;
+  margin-left: 30px;
+  font-family: var(--second-branding-font);
+  color: var(--title-color);
+  font-size: 24px;
+}
+
+.shiota_inspiration {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .btn_primary {
   width: 160px;
   font-size: 16px;
@@ -40,91 +56,28 @@ body {
   color: #f8f8f8;
 }
 
-.homepage_intro {
-  text-align: center;
-  color: var(--color-bg);
-  width: 100%;
+.header_1 {
+  height: 30vh;
+  margin-top: 5em;
 }
 
-.headline_container {
-  height: 100vh;
-  width: 100%;
-}
-
-.headline_2_container {
-  height: 100vh;
-  width: 100%;
-}
-
-.headline_3_container {
-  height: 70vh;
-  width: 100%;
-}
-
-.headline {
-  font-family: var(--title-font-1);
+h1 {
+  font-family: var(--second-branding-font);
   color: var(--title-color);
-  font-size: 8em;
-  margin-top: 70%;
-  position: sticky;
-  top: 0;
+  font-size: 24px;
+  margin-top: 60px;
 }
 
-.headline_2 {
-  font-family: var(--title-font-2);
+h2 {
+  font-family: var(--second-branding-font);
   color: var(--title-color);
-  font-size: 3em;
-  position: sticky;
-  top: 0;
+  font-size: 20px;
 }
 
-.headline_3 {
-  font-family: var(--title-font-3);
-  color: var(--title-color);
-  font-size: 1.5em;
-  position: sticky;
-  top: 0;
-}
-
-.headline_2_projects {
-  font-family: var(--title-font-2);
-  color: var(--title-color);
-  font-size: 1.3em;
-}
-
-/*
-.headline,
-.headline_2,
-.headline_3 {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  text-align: start;
-}
-*/
-
-.tabs_container {
-  height: 90vh;
-}
-
-.homepage_tab {
-  font-family: var(--title-font);
-  font-size: 1.5em;
-  color: var(--title-color);
-  position: sticky;
-  top: 4em;
-  margin-bottom: 3.5em;
-}
-
-.homepage_tab_2 {
-  position: sticky;
-  top: 9em;
-  margin-bottom: 0;
-}
-
-.homepage_tab_2 {
-  font-family: var(--title-font-3);
-  font-size: 1.5em;
-  color: var(--title-color);
+.temp_logo {
+  font-family: var(--second-branding-font);
+  color: var(--text-color);
+  font-size: 20px;
 }
 
 p {
@@ -142,18 +95,15 @@ img {
   height: auto;
 }
 
-.sticky-list {
-  position: sticky;
-  top: 0;
-  background: transparent;
-  z-index: 1;
-  padding: 10px;
-  max-height: 50vh;
-  overflow-y: auto;
+.projects {
+  margin-top: 20px;
 }
 
-.scrolling-list-projects {
-  list-style: none;
+.box {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
 }
 
 .project_1,
@@ -278,11 +228,6 @@ video {
   100% {
     top: 0%;
   }
-}
-
-.footer {
-  display: block;
-  width: 100%;
 }
 
 .last_p {
