@@ -85,7 +85,8 @@ p {
   font-family: var(--branding-font);
   color: var(--text-color);
   font-size: 16px;
-  padding: 16px 4px;
+  padding: 6px 16px;
+  margin: 0 auto;
   text-align: start;
 }
 
