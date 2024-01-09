@@ -22,10 +22,6 @@
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Ledger&family=Space+Grotesk&family=Urbanist:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/6d221f4f88.js"
       crossorigin="anonymous"
@@ -34,7 +30,9 @@
     <title>Hi there 🌼| Mor Shmueli | UX|UI designer</title>
   </head>
   <body>
-    <div class="logo">Mor Shmueli</div>
+    <div class="container">
+      <div class="logo">Mor Shmueli</div>
+    </div>
     <div class="shiota_inspiration">
       <img src="img/footer_light.svg" class="img-fluid" />
     </div>
@@ -42,52 +40,64 @@
     <div class="container">
       <div class="header_1">
         <h1>
-          I am passionate about creating products that activate the
-          users, making them a pro-active part of the experience.
+          I am passionate about creating products that activate the users,
+          making them a pro-active part of the experience.
         </h1>
       </div>
-    </div>
 
-          <div class="row">
-            <div class="col-sm-6 box_1">
-                <h4 class="selected_projects">
-                  Selected projects
-                </h4>
-                <div class="btn_primary">
-                  <a href="/hotel-project.html" target="_blank"
-                    >Go to project</a
-                  >
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-sm-6 box_1">
+          <h2>Work work work</h2>
+          <div class="btn_primary">
+            <a href="/bramcote.html" target="_blank">Go to project</a>
+          </div>
+        </div>
 
-            <div class="col-sm-6 box_2">
-                <img
-                  src="img/tower.svg"
-                  class="tower_img img-fluid"
-                />
-            </div>
-            </div>
+        <div class="col-sm-6 box_2">
+          <img src="img/bramcote.svg" class="bramcote_img img-fluid" />
+        </div>
+      </div>
 
-             <div class="row"> 
-              <div class="col-sm-6 box_2">
-                <img
-                  src="img/about-me-img.svg"
-                  class="tower_img img-fluid"
-                />
-            </div>
-            <div class="col-sm-6 box_1">
-                <h4 class="selected_projects">
-                  Something about me
-                </h4>
-            </div>
-            </div>
+      <div class="row">
+        <div class="col-sm-6 box_3">
+          <img src="img/about-me-img.svg" class="tower_img img-fluid" />
+        </div>
+        <div class="col-sm-6 box_4">
+          <p>
+            <strong>A</strong> turning point in my life happened when I have
+            been introduced to the notion that in art (although this can be
+            applied to other disciplines as well), there isn’t a right or wrong
+            answer, but rather, different interpretations.<br /><br />
 
-                 <div class="row">  
-                  <div class="col-sm-6 box_1">
-                <h4 class="selected_projects">
-                  Get in touch
-                </h4>  
-                 <div class="social">
+            All of a sudden, an honest dialogue was possible, and the exchange
+            of ideas with the people around me became more exciting as I was
+            eager to know all the different perceptions on whatever matter we
+            were discussing. I was learning and growing. <br /><br />
+
+            This was incredibly important because it allowed me to shut down my
+            ego and try to look at reality through the lenses of people coming
+            from different backgrounds, cultures, or ages. It taught me how to
+            listen and build a genuine curiosity and empathy.<br /><br />
+
+            Today, when approaching a new project, I ask myself the same
+            questions. I wonder what makes the product important and how it is
+            perceived by different people. What is it that I am missing because
+            I can’t see it but someone else can? No wonder brain mapping is one
+            of my favourite activities throughout the design process!
+            <br /><br />
+
+            Last but not least, I am a BIG fan of products that activate people,
+            that make them ask questions as opposed to provide answers. I firmly
+            believe that it is possible to make accessible products, it’s just a
+            matter of pushing the right buttons.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 box_5">
+          <h2>Get in touch</h2>
+          <div class="social">
             <span>
               <a href="mailto:morshmueli88@gmail.com"
                 ><i class="fas fa-envelope-square"></i
@@ -109,22 +119,11 @@
                 ><i class="fab fa-github"></i></a
             ></span>
           </div>
-            </div>
-              <div class="col-sm-6 box_2">
-             
-            </div> 
-            </div>
-
-       
         </div>
-
-    <img src="/img/header_img.svg" class="img-fluid mt-5" />
-
-    <div class="loop-container">
-      <div class="line black-line"></div>
+        <div class="col-sm-6 box_6"></div>
+      </div>
     </div>
-
-    <p class="last_p text-center mt-1">
+    <p class="last_p text-center">
       This portfolio was designed and coded by Mor Shmueli. It is
       <a
         href="https://github.com/Mor-coder"
@@ -134,21 +133,10 @@
       >
       and hosted on Netlify
     </p>
+    <img src="/img/header_img.svg" class="img-fluid" />
 
-    <script>
-      const headlines = document.querySelectorAll(
-        ".headline, .headline_2, .headline_3"
-      );
-
-      function fadeInHeadlines() {
-        headlines.forEach((headline, index) => {
-          setTimeout(() => {
-            headline.style.opacity = 1;
-          }, 1000 * index); // Adjust the delay (1000ms = 1 second)
-        });
-      }
-
-      window.addEventListener("load", fadeInHeadlines);
-    </script>
+    <div class="loop-container">
+      <div class="line black-line"></div>
+    </div>
   </body>
 </html>

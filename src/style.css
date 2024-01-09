@@ -2,10 +2,7 @@
   --text-color: #343434;
   --title-color: #212529;
   --box-shadow: 3px 1px 5px rgb(143, 141, 141);
-  --title-font: "Urbanist", sans-serif;
-  --title-font-1: "Bebas Neue", sans-serif;
-  --title-font-2: "DM Serif Display", serif;
-  --title-font-3: "Space Grotesk", sans-serif;
+  --branding-font: "Arial, Helvetica, sans-serif";
   --color-bg: #f8f8f8;
 }
 
@@ -17,13 +14,11 @@ body {
 }
 
 .logo {
-  display: block;
-  margin: 0 auto;
-  padding: 16px;
-  margin-left: 30px;
-  font-family: var(--second-branding-font);
+  display: flex;
+  padding: 12px 0 0 0;
+  font-family: var(--branding-font);
   color: var(--title-color);
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .shiota_inspiration {
@@ -36,9 +31,9 @@ body {
   width: 160px;
   font-size: 14px;
   text-align: center;
-  font-family: var(--second-branding-font);
+  font-family: var(--branding-font);
   padding: 14px 16px;
-  margin-left: 36px;
+  margin-left: 16px;
   background-color: #343434;
   color: #f8f8f8;
   border: 1px solid transparent;
@@ -63,45 +58,41 @@ body {
 }
 
 h1 {
-  font-family: var(--second-branding-font);
+  font-family: var(--branding-font);
   color: var(--title-color);
   font-size: 24px;
   margin-top: 60px;
 }
 
 h2 {
-  font-family: var(--second-branding-font);
+  font-family: var(--branding-font);
   color: var(--title-color);
   font-size: 20px;
+  padding: 16px;
+  margin: 0 auto;
 }
 
 h4 {
-  font-family: var(--second-branding-font);
+  font-family: var(--branding-font);
   color: var(--title-color);
-  font-size: 14px;
   text-align: center;
-  padding: 12px 12px;
-  margin: 12px 12px;
-}
-
-.headline_2_projects {
-  margin-left: 36px;
-}
-
-.temp_logo {
-  font-family: var(--second-branding-font);
-  color: var(--text-color);
-  font-size: 20px;
+  padding: 16px 4px;
+  margin: 0 auto;
+  font-size: 18px;
 }
 
 p {
-  font-family: var(--second-branding-font);
+  font-family: var(--branding-font);
   color: var(--text-color);
   font-size: 16px;
+  padding: 16px 4px;
+  text-align: start;
 }
 
 .box_1,
-.box_2 {
+.box_2,
+.box_5,
+.box_6 {
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -109,16 +100,19 @@ p {
   border: 0.5px solid rgb(231, 227, 227);
 }
 
-.box_1 {
+.box_1,
+.box_6 {
   background-color: pink;
 }
 
-.box_2 {
+.box_2,
+.box_5 {
   background-color: rgb(216, 205, 207);
 }
 
 .tower_img,
-.about-me-img {
+.about-me-img,
+.bramcote_img {
   display: block;
   margin: 0 auto;
   width: 50%;
@@ -176,22 +170,12 @@ video {
   font-size: 24px;
 }
 
-.question-mark-img,
-.tower,
-.thumbnails {
-  display: block;
-  margin: 0 auto;
-  width: 85%;
-  height: auto;
-}
-
 .social {
   display: flex;
   flex-direction: row;
   font-size: 30px;
-  align-items: center;
   margin: 0 auto;
-  padding: 36px;
+  padding: 16px;
 }
 
 .social a {
@@ -245,6 +229,6 @@ video {
 
 .last_p {
   font-size: 12px;
-  font-family: var(--second-branding-font);
+  font-family: var(--branding-font);
   color: var(--text-color);
 }
