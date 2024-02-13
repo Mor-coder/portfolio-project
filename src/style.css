@@ -8,15 +8,16 @@
 }
 
 .btn_primary {
-  width: 160px;
-  font-size: 14px;
+  display: inline-block;
+  align-items: flex-end;
+  font-size: 16px;
   text-align: center;
   font-family: var(--second-font);
-  padding: 10px 16px;
-  margin: 36px 0 0 28px;
+  padding: 10px 36px;
+  margin: 16px 0 40px 28px;
   background-color: #343434;
   color: #f8f8f8;
-  border: 1px solid transparent;
+  border: none;
   border-radius: 10px;
 }
 
