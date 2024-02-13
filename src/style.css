@@ -53,7 +53,7 @@ p {
 }
 
 .WorkWorkWork {
-  font-size: 11rem;
+  font-size: 10rem;
   font-family: var(--branding-font);
   color: var(--title-color);
   padding: 0 0 16px 0;
@@ -145,7 +145,7 @@ body {
   background-color: rgb(216, 205, 207);
 }
 
-.tower_img,
+.booking_hotel,
 .about-me-img,
 .bramcote_img {
   display: block;
@@ -267,13 +267,15 @@ video {
   .loop-container,
   .line,
   .black-line,
-  .header_img {
+  .header_img,
+  .box_2,
+  .box_4 {
     display: none;
   }
 }
 
 .last_p {
-  font-size: 12px;
-  font-family: var(--branding-font);
+  font-size: 16px;
+  font-family: var(--second-font);
   color: var(--text-color);
 }
