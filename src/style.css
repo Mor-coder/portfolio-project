@@ -120,10 +120,11 @@ body {
 .about-me-img,
 .bramcote_img,
 .hotel_hp_img,
-.weather_app_img {
+.weather_app_img,
+.tower {
   display: block;
   margin: 0 auto;
-  max-width: 0%;
+  max-width: 100%;
   height: auto;
   padding: 16px;
   margin-top: 10%;
