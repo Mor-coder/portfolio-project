@@ -52,23 +52,22 @@ p {
   margin-top: 10%;
 }
 
-.WorkWorkWork {
+.WorkWorkWork,
+.Get_in_touch {
   font-size: 3rem;
   font-family: var(--branding-font);
   color: var(--title-color);
-  padding: 0 0 16px 0;
+  padding: 0 0 16px 16px;
   margin: 0 auto;
-  margin-top: 50%;
 }
 
-.ProjectTitle,
-.Get_in_touch {
-  font-family: var(--branding-font);
+.ProjectTitle {
+  font-family: var(--second-font);
   color: var(--title-color);
   padding: 16px 16px;
   margin: 16px;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: start;
 }
 
@@ -77,18 +76,13 @@ p {
   margin: 0 16px;
 }
 
-.WorkIntro {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0 auto;
-}
-
 .WorkSpecs {
   font-family: var(--second-font);
   color: var(--text-color);
   font-size: 16px;
   font-weight: 400;
   text-align: start;
+  padding: 10px 16px;
 }
 
 body {
@@ -119,27 +113,8 @@ body {
 .box_6,
 .box_8,
 .box_9 {
-  min-height: 110vh;
-  border: 0.5px solid rgb(231, 227, 227);
-}
-
-.box_6,
-.box_7,
-.box_8,
-.box_10 {
+  min-height: 100vh;
   border: 0.5px solid transparent;
-}
-
-.box_1,
-.box_3,
-.box_9 {
-  background-color: pink;
-}
-
-.box_2,
-.box_4,
-.box_5 {
-  background-color: rgb(216, 205, 207);
 }
 
 .about-me-img,
