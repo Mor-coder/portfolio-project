@@ -20,10 +20,16 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Ledger&family=Space+Grotesk&family=Urbanist:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <script
@@ -32,19 +38,12 @@
     ></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
     <title>Revamping the Bramcote Old Church Tower website</title>
-    <style>
-      canvas {
-        display: block;
-        margin: 0 auto;
-        border: 1px solid transparent;
-      }
-    </style>
   </head>
   <body>
     <container>
       <canvas id="myCanvas" width="400" height="200" class="mt-5"></canvas>
 
-      <h3 class="text-center mt-5 mb-3">Re-vamping in progress</h3>
+      <h3 class="ProjectTitle text-start mt-5 mb-3">Re-vamping in progress</h3>
 
       <script>
         const canvas = document.getElementById("myCanvas");
@@ -89,8 +88,17 @@
         update(); // Start animation loop
       </script>
 
-      <!--
-    <footer class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3 class="ProjectTitle text-start">The Re-vamping of the Bramcote Old Church Tower Trust</h3>
+          </div>
+          <img src="/img/tower.svg" class="tower-img img-fluid" />
+        </div>
+      </div>
+
+       <div class="footer">
+      <h3 class="Get_in_touch text-start">Get in touch</h3>
       <div class="social">
         <span>
           <a href="mailto:morshmueli88@gmail.com"
@@ -107,31 +115,27 @@
         </span>
         <span
           ><a
-            href="https://www.instagram.com/morsh0/"
-            target="_blank"
-            title="Mor's instagram"
-            ><i class="fab fa-instagram"></i></a
-        ></span>
-        <span
-          ><a
             href="https://github.com/Mor-coder"
             target="_blank"
             title="Mor's github"
             ><i class="fab fa-github"></i></a
         ></span>
-      </div>  
-       <p class="last_p text-center mt-5">
-      This portfolio was designed and coded by Mor Shmueli. It is
-      <a
-        href="https://github.com/Mor-coder"
-        target="_blank"
-        title="Mor's github"
-        >open-sourced</a
-      >
-      and hosted on Netlify
-    </p>
-    </footer>
-    -->
-    </container>
+      </div>
+      <p class="last_p text-start">
+        This portfolio was designed and coded by Mor Shmueli. It is
+        <a
+          href="https://github.com/Mor-coder"
+          target="_blank"
+          title="Mor's github"
+          >open-sourced</a
+        >
+        and hosted on Netlify
+      </p>
+    </div>
+
+    <img src="/img/header_img.svg" class="header_img img-fluid" />
+    <div class="loop-container">
+      <div class="line black-line"></div>
+    </div>
   </body>
 </html>
