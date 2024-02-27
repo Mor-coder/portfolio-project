@@ -20,7 +20,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap"
@@ -32,74 +32,57 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <script
       src="https://kit.fontawesome.com/6d221f4f88.js"
       crossorigin="anonymous"
     ></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
-    <title>Revamping the Bramcote Old Church Tower website</title>
+    <title>The Bramcote Old Church Tower website project</title>
   </head>
   <body>
-    <container>
-      <canvas id="myCanvas" width="400" height="200" class="mt-5"></canvas>
+    <div class="container">
+      <div class="go_back_ui">
+        <p>
+          <a href="/index.html" class="go_back_text">
+            <span class="material-symbols-outlined"> arrow_back</span>
+            Go back
+          </a>
+        </p>
+      </div>
 
-      <h3 class="ProjectTitle text-start mt-5 mb-3">Re-vamping in progress</h3>
-
-      <script>
-        const canvas = document.getElementById("myCanvas");
-        const ctx = canvas.getContext("2d");
-
-        // Ball objects
-        const balls = [
-          { x: 50, y: 50, radius: 20, color: "#343434", speed: 2 },
-          { x: 150, y: 50, radius: 30, color: "#343434", speed: 1.5 },
-          { x: 250, y: 50, radius: 15, color: "#343434", speed: 1 },
-        ];
-
-        function drawBall(ball) {
-          ctx.beginPath();
-          ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
-          ctx.fillStyle = ball.color;
-          ctx.fill();
-          ctx.closePath();
-        }
-
-        function update() {
-          ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-          for (const ball of balls) {
-            drawBall(ball);
-
-            // Update ball position
-            ball.y += ball.speed;
-
-            // Bounce when reaching the bottom
-            if (
-              ball.y + ball.radius > canvas.height ||
-              ball.y - ball.radius < 0
-            ) {
-              ball.speed = -ball.speed;
-            }
-          }
-
-          requestAnimationFrame(update);
-        }
-
-        update(); // Start animation loop
-      </script>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h3 class="ProjectTitle text-start">The Re-vamping of the Bramcote Old Church Tower Trust</h3>
-          </div>
-          <div class="col-sm-6">
-          <img src="/img/tower.svg" class="tower-img img-fluid" />
+      <div class="row">
+        <div class="col-sm-6 mt-5">
+          <h3 class="ProjectTitle text-start mt-5">
+            The Re-vamping of the Bramcote Old Church Tower Trust
+          </h3>
+          <p class="mt-5">
+            The Bramcote Old Church Tower Trust is a charity dedicated to the
+            preservation of the church Tower, the sole survivor of the original
+            12th-century church in Bramcote, Nottingham.
+          </p>
+          <p class="mt-3">
+            I took it upon myself to re-design the charity's website with the
+            aim to boost its online traffic and increase visibility. I think
+            it's important to know & understand our past to make more conscious
+            decisions for a better (present &) future.
+          </p>
         </div>
+        <div class="col-sm-6">
+          <img src="/img/tower.svg" class="tower-img img-fluid" />
         </div>
       </div>
 
-       <div class="footer">
+      <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6"></div>
+      </div>
+    </div>
+
+    <div class="footer">
       <h3 class="Get_in_touch text-start">Get in touch</h3>
       <div class="social">
         <span>

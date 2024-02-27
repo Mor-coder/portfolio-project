@@ -33,6 +33,19 @@
   border: 1px solid transparent;
 }
 
+.go_back_text {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.material-symbols-outlined {
+  vertical-align: top;
+}
+
+.go_back_text:hover {
+  color: rgb(8, 209, 42);
+}
+
 p {
   font-family: var(--second-font);
   color: var(--text-color);
@@ -126,7 +139,6 @@ body {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
-  padding: 16px;
   margin-top: 10%;
 }
 
