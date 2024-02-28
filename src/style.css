@@ -184,7 +184,7 @@ body {
 
 @keyframes moveLoop {
   0% {
-    top: -280px;
+    top: -270px;
   }
   100% {
     top: 0%;
