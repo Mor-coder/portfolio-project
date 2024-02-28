@@ -13,8 +13,8 @@
   font-size: 16px;
   text-align: center;
   font-family: var(--second-font);
-  padding: 10px 36px;
-  margin: 16px;
+  padding: 10px 60px;
+  margin: 24px 16px;
   background-color: #343434;
   color: #f8f8f8;
   border: none;
@@ -46,6 +46,7 @@
   display: block;
   margin: 0 auto;
   width: 4%;
+  padding-top: 60px;
 }
 
 .go_back_text:hover {
@@ -62,7 +63,7 @@ p {
 
 .Header {
   max-width: 100%;
-  height: 40vh;
+  height: 75vh;
 }
 
 .IntroHeader {
@@ -132,7 +133,7 @@ body {
 .box_6,
 .box_8,
 .box_9 {
-  height: 90vh;
+  height: 110vh;
   border: 0.5px solid transparent;
 }
 
@@ -201,7 +202,8 @@ body {
   .loop-container,
   .line,
   .black-line,
-  .header_img {
+  .header_img,
+  .expand_more {
     display: none;
   }
 }
