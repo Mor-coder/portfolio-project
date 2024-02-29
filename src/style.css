@@ -61,6 +61,10 @@ p {
   text-align: start;
 }
 
+.quote {
+  font-style: italic;
+}
+
 .Header {
   max-width: 100%;
   height: 75vh;
